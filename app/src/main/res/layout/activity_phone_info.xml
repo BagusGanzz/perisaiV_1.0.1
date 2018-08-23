@@ -1,0 +1,354 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/settings_background"
+    android:orientation="vertical">
+
+    <include layout="@layout/tool_bar" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8.0dip"
+                android:layout_marginLeft="16.0dip"
+                android:layout_marginRight="16.0dip"
+                android:layout_marginTop="8.0dip"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="48.0dip"
+                    android:layout_height="48.0dip"
+                    android:src="@mipmap/ic_cpu" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="16.0dip"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/tv_title_cpu"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:text="@string/cpu"
+                            android:textColor="@color/colorText"
+                            android:textSize="18.0sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/tv_info_cpu"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:textColor="@color/colorText"
+                            android:textSize="18.0sp" />
+                    </RelativeLayout>
+
+                    <com.liulishuo.magicprogresswidget.MagicProgressBar
+                        android:id="@+id/pb_cpu"
+                        android:layout_width="fill_parent"
+                        android:layout_height="8.0dip"
+                        app:mpb_background_color="@android:color/white"
+                        app:mpb_fill_color="#fffd6301"
+                        app:mpb_flat="true" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8.0dip"
+                android:layout_marginLeft="16.0dip"
+                android:layout_marginRight="16.0dip"
+                android:layout_marginTop="8.0dip"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="48.0dip"
+                    android:layout_height="48.0dip"
+                    android:src="@mipmap/ic_ram" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="16.0dip"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/tv_title_ram"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:text="@string/ram"
+                            android:textColor="@color/colorText"
+                            android:textSize="18.0sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/tv_info_ram"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:textColor="@color/colorText"
+                            android:textSize="18.0sp" />
+                    </RelativeLayout>
+
+                    <com.liulishuo.magicprogresswidget.MagicProgressBar
+                        android:id="@+id/pb_ram"
+                        android:layout_width="fill_parent"
+                        android:layout_height="8.0dip"
+                        app:mpb_background_color="@android:color/white"
+                        app:mpb_fill_color="#fffd6301"
+                        app:mpb_flat="true" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8.0dip"
+                android:layout_marginLeft="16.0dip"
+                android:layout_marginRight="16.0dip"
+                android:layout_marginTop="8.0dip"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <ImageView
+                    android:layout_width="48.0dip"
+                    android:layout_height="48.0dip"
+                    android:src="@mipmap/ic_externalstorage" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="16.0dip"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:text="@string/sd_card"
+                            android:textColor="@color/colorText"
+                            android:textSize="18.0sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/tv_info_sdcard"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:text="8GB"
+                            android:textColor="@color/colorText"
+                            android:textSize="18.0sp" />
+                    </RelativeLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8.0dip"
+                android:layout_marginLeft="16.0dip"
+                android:layout_marginRight="16.0dip"
+                android:layout_marginTop="8.0dip"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="48.0dip"
+                    android:layout_height="48.0dip"
+                    android:src="@mipmap/ic_rom" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="16.0dip"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/tv_title_storage"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:text="@string/external_storage"
+                            android:textColor="@color/colorText"
+                            android:textSize="18.0sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/tv_info_storage"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:textColor="@color/colorText"
+                            android:textSize="18.0sp" />
+                    </RelativeLayout>
+
+                    <com.liulishuo.magicprogresswidget.MagicProgressBar
+                        android:id="@+id/pb_storage"
+                        android:layout_width="fill_parent"
+                        android:layout_height="8.0dip"
+                        app:mpb_background_color="@android:color/white"
+                        app:mpb_fill_color="#fffd6301"
+                        app:mpb_flat="true" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_basic_information"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8.0dip"
+                android:background="@color/colorBackgroundTextView"
+                android:paddingBottom="8.0dip"
+                android:paddingLeft="16.0dip"
+                android:paddingTop="8.0dip"
+                android:text="@string/basic_information"
+                android:textColor="@color/colorText"
+                android:textSize="18.0sp" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingBottom="8.0dip"
+                android:paddingLeft="16.0dip"
+                android:paddingRight="8.0dip"
+                android:paddingTop="8.0dip">
+
+                <TextView
+                    android:id="@+id/tv_title_system_os_version"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/system_os_version"
+                    android:textColor="@color/colorText"
+                    android:textSize="18.0sp" />
+
+                <TextView
+                    android:id="@+id/tv_system_os_version"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Android 5.0"
+                    android:textColor="@color/colorTextSetting"
+                    android:textSize="14.0sp" />
+            </LinearLayout>
+
+            <FrameLayout
+                android:layout_width="fill_parent"
+                android:layout_height="1.0dip"
+                android:background="#33ffffff" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingBottom="8.0dip"
+                android:paddingLeft="16.0dip"
+                android:paddingRight="8.0dip"
+                android:paddingTop="8.0dip">
+
+                <TextView
+                    android:id="@+id/tv_title_imei"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/imei"
+                    android:textColor="@color/colorText"
+                    android:textSize="18.0sp" />
+
+                <TextView
+                    android:id="@+id/tv_imei"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Unknow"
+                    android:textColor="@color/colorTextSetting"
+                    android:textSize="14.0sp" />
+            </LinearLayout>
+
+            <FrameLayout
+                android:layout_width="fill_parent"
+                android:layout_height="1.0dip"
+                android:background="#33ffffff" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingBottom="8.0dip"
+                android:paddingLeft="16.0dip"
+                android:paddingRight="8.0dip"
+                android:paddingTop="8.0dip">
+
+                <TextView
+                    android:id="@+id/tv_title_root_state"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/root_state"
+                    android:textColor="@color/colorText"
+                    android:textSize="18.0sp" />
+
+                <TextView
+                    android:id="@+id/tv_root_state"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Not Rooted"
+                    android:textColor="@color/colorTextSetting"
+                    android:textSize="14.0sp" />
+            </LinearLayout>
+
+            <FrameLayout
+                android:layout_width="fill_parent"
+                android:layout_height="1.0dip"
+                android:background="#33ffffff" />
+        </LinearLayout>
+
+        <com.google.android.gms.ads.AdView
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            ads:adSize="BANNER"
+            ads:adUnitId="@string/b">
+        </com.google.android.gms.ads.AdView>
+
+
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,26 @@
+[
+    {
+        "outputFile": "D:\\AndroidLibrary\\perisaiV_1.0.1\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-large-land-v4\\values-large-land-v4.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 81,
+                    "endOffset": 132
+                },
+                "from": {
+                    "file": "D:\\AndroidLibrary\\perisaiV_1.0.1\\app\\src\\main\\res\\values-large-land\\layout.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 135,
+                        "endColumn": 81,
+                        "endOffset": 212
+                    }
+                }
+            }
+        ]
+    }
+]

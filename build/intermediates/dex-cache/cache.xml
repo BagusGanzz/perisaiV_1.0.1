@@ -1,0 +1,473 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-25.3.1_77e947d984efec707d95bfb7948f1275e477e51c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\exploded-aar\com.github.ViksaaSkool\AwesomeSplash\v1.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="6924ef2127a1fb106d13d701c25b2688223c0fad">
+        <dex dex="D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\pre-dexed\debug\com.github.ViksaaSkool-AwesomeSplash-v1.0.0_701640da6d19335da2818bb700f8851bdf8f2847.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\25.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="8a372c4191f80489770a231f7be4820b204b886a">
+        <dex dex="D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\pre-dexed\debug\com.android.support-cardview-v7-25.0.0_060ba79f796097f32cad35799ef95287e00c707e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-25.3.1_5517a0e4791e4aabac5fac8f354a6d1542c418c1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-25.3.1_5fdbf619cd6e3f20883b02efb12e40393a010b0f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\libs\android-query-full.0.26.2-beta.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="d2b1749a3e9ba9244daf6d123c88ff976429ccfb">
+        <dex dex="D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\pre-dexed\debug\android-query-full.0.26.2-beta.1_921fb297c053d6ca9ac3f37e861556fde1555791.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Fadilah\.gradle\caches\modules-2\files-2.1\com.github.bumptech.glide\glide\3.7.0\9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4\glide-3.7.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4">
+        <dex dex="D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\pre-dexed\debug\glide-3.7.0_b72a7e2af71f485c824589a7c8a5fb9ecc22c978.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\exploded-aar\com.android.support\design\25.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="26384be22ddc74cfe197ebda9edbc7d1fd8bd537">
+        <dex dex="D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\pre-dexed\debug\com.android.support-design-25.0.0_1ad679f8431d872e0fc13ee1c86b40911bdce338.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\exploded-aar\com.daimajia.androidanimations\library\1.1.3\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="8cec50fc9cc847bad0d6ed7d93814f4b34744521">
+        <dex dex="D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\pre-dexed\debug\com.daimajia.androidanimations-library-1.1.3_4cbee1640cd5f001a92267ce9a1bc4134116f308.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\exploded-aar\com.github.ozodrukh\CircularReveal\1.1.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="e3a3d62fab67ccb83f386a4c092bfb5747ea15a7">
+        <dex dex="D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\pre-dexed\debug\com.github.ozodrukh-CircularReveal-1.1.1_e2cde018757aaa2f022010e805c193b50567c78b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\exploded-aar\com.mikepenz\material-design-iconic-typeface\2.2.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="27bd073c1d188457050a9169e7dfe03ea0271dbc">
+        <dex dex="D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\pre-dexed\debug\com.mikepenz-material-design-iconic-typeface-2.2.0.1_471f29af7d1c7de899970b6c9217b1e447a5d396.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\exploded-aar\com.mikepenz\fontawesome-typeface\4.4.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="e8ad61c604470ee6933c21ae0aefcf9ee03c3911">
+        <dex dex="D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\pre-dexed\debug\com.mikepenz-fontawesome-typeface-4.4.0.1_4961dfc26c940f0eec2b833a29ef10d24c4ca91a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\exploded-aar\io.fabric.sdk.android\fabric\1.3.12\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="3575e73a22dce98f0bdbcdb475ef55a84606a9a6">
+        <dex dex="D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\pre-dexed\debug\io.fabric.sdk.android-fabric-1.3.12_ad0df29ad37b76a3b78dd07dbe50bd6e83a00cc5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\exploded-aar\com.github.jorgecastilloprz\fillableloaders\1.02\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="09d89c0a8e2ba8d2fd5e7110d62bc6916d642567">
+        <dex dex="D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\pre-dexed\debug\com.github.jorgecastilloprz-fillableloaders-1.02_aa6d49c372a54f54e74c014c195af43de020d511.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\11.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="6178e31397c24ab1bfc09766832cdcf519621eb7">
+        <dex dex="D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-basement-11.0.1_4f89399b192606ebe426e4e174468a94793d3efa.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\exploded-aar\com.mikepenz\materialdrawer\5.5.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="91997f20cd8ca4afd7d9b9d62ceec7ace78d1fc7">
+        <dex dex="D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\pre-dexed\debug\com.mikepenz-materialdrawer-5.5.0_acff912e708678639afb08622056df61fb7c93aa.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Fadilah\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\25.3.1\support-annotations-25.3.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\pre-dexed\debug\support-annotations-25.3.1_37f15ba5d13a5172ea63ef293c2ee9686ac98376.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-25.3.1_40c78ac071de29fd7be893d6ec4b9e02f10e2c65.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\exploded-aar\com.getkeepsafe.taptargetview\taptargetview\1.11.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="7f6b3eace9cc0d8ad79f6d0018532d4d402873bd">
+        <dex dex="D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\pre-dexed\debug\com.getkeepsafe.taptargetview-taptargetview-1.11.0_ee5c02f373ab9d4a825ee5e6627976620d922866.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\11.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="21160c044ba984fb2e33b833c89a496becb85cfd">
+        <dex dex="D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-tasks-11.0.1_471d065e34e6d7727fbe9685c3f551e41aa0103a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\11.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c16e0d5f6efb0cdae98b38fe9a48d5236ea136d0">
+        <dex dex="D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-ads-11.0.1_ab1491ce3a1098f582a955f54709299cc565915e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Fadilah\.gradle\caches\modules-2\files-2.1\com.jakewharton\butterknife-annotations\8.2.1\d6f54d76edfbe779a50a8636b10fd3f555d8f780\butterknife-annotations-8.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="d6f54d76edfbe779a50a8636b10fd3f555d8f780">
+        <dex dex="D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\pre-dexed\debug\butterknife-annotations-8.2.1_947dbe52573fb2f1bc37f4c3514012ab3bd3bf36.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Fadilah\.gradle\caches\modules-2\files-2.1\com.nineoldandroids\library\2.4.0\e9b63380f3a242dbdbf103a2355ad7e43bad17cb\library-2.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\pre-dexed\debug\library-2.4.0_48e8b3fd92ef4afaeeabcf19ef08537f6fab7f7a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\exploded-aar\com.takwolf.android\lock9view\0.0.11\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="271f2652816e852fa1c53a5fb6b110482a022c4b">
+        <dex dex="D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\pre-dexed\debug\com.takwolf.android-lock9view-0.0.11_c15b6ffdde3c8c461ebca3db77a87822eab78643.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\11.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="d695dc4247690369d66c022c6d18190155c61fcd">
+        <dex dex="D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-base-11.0.1_5e27a6916f085d50887caa20aab87754f2320608.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\libs\gson-2.2.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="53bfcd3c8e310d1493b2691484525ed90b04e236">
+        <dex dex="D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\pre-dexed\debug\gson-2.2.2_9c586ce7c6031f82a7178aede865dd0fc7e33ae9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-clearcut\11.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="de123ff49c41c304ca4bc7eb5600d294984eaf5f">
+        <dex dex="D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-clearcut-11.0.1_b32028118c6576e1cc90d31083e911c965e82585.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\exploded-aar\com.liulishuo.magicprogresswidget\library\1.0.9\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="7620d882c3faf10854575d8e4a215d90bd46af22">
+        <dex dex="D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\pre-dexed\debug\com.liulishuo.magicprogresswidget-library-1.0.9_8f5d1d6c08f9cfd87980776d85e357363148e3c1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-25.3.1_3ccab482d1afc62bd47c911f2e49747926209b2f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\11.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="589f444b075f47c43c78d6d7c46198b34ce4c1b6">
+        <dex dex="D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-safetynet-11.0.1_fccfa9edac633f2fe66c57d93a90d20ab6330c7d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\exploded-aar\com.crashlytics.sdk.android\answers\1.3.8\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="0c46a5a897439810b6c437ce188bd07d9d8dffb0">
+        <dex dex="D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\pre-dexed\debug\com.crashlytics.sdk.android-answers-1.3.8_a67a0a06ebdc27f20ccf4cee084f8a97763d3394.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\exploded-aar\com.mikepenz\aboutlibraries\5.8.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="f2dec8423d402b9e9b75468e8caa757b387c156a">
+        <dex dex="D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\pre-dexed\debug\com.mikepenz-aboutlibraries-5.8.0_8ab8ad7962081607228b745c3908cdf5985796a1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\exploded-aar\com.mikepenz\crossfadedrawerlayout\1.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="ad78a00a0f2412d5078e8a2acfa02c28faedf9ff">
+        <dex dex="D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\pre-dexed\debug\com.mikepenz-crossfadedrawerlayout-1.0.0_5445db63d012035a245928e51826f8c6b51f1b1f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\exploded-aar\org.zakariya.stickyheaders\stickyheaders\0.7.5\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="08a2bc6d165e6e8bfb310b0e3ff7f350eef5516d">
+        <dex dex="D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\pre-dexed\debug\org.zakariya.stickyheaders-stickyheaders-0.7.5_27e12a5735123cf3ca6d41a04125814184610dbc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-25.3.1_a45d101382f06a2afaa96e4d83870820b0c20be5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\exploded-aar\cn.dreamtobe.percentsmoothhandler\library\0.1.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="b3c8f81c607700a598795b5bf6946a3b34e72952">
+        <dex dex="D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\pre-dexed\debug\cn.dreamtobe.percentsmoothhandler-library-0.1.1_c65a297788ebd860374fbe7b12d0b4cecf138431.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\exploded-aar\com.mikepenz\materialize\1.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="84c98924eff3106f306c3e233cc2e6d84744f518">
+        <dex dex="D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\pre-dexed\debug\com.mikepenz-materialize-1.0.0_4fcb9f477cb44f8f70bc41033ac669f645d84c89.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\exploded-aar\com.daimajia.easing\library\1.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="d7e947f993bf32a00fcb3078cdda8bb11c930afb">
+        <dex dex="D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\pre-dexed\debug\com.daimajia.easing-library-1.0.1_576f1b662b7ccbb7f014156572acc7f4bef39d8d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-25.3.1_5695ed13fde348c87a2b36118ae681bc58775bb0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\exploded-aar\com.mikepenz\fastadapter\1.7.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="e0b05361ce11e170359853e8298a2d81744e7c19">
+        <dex dex="D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\pre-dexed\debug\com.mikepenz-fastadapter-1.7.0_f7a96b83131ced3d51e3c6a4c58f77ad36d1a4b1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Fadilah\.gradle\caches\modules-2\files-2.1\joda-time\joda-time\2.9.6\e370a92153bf66da17549ecc78c69ec6c6ec9f41\joda-time-2.9.6.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="e370a92153bf66da17549ecc78c69ec6c6ec9f41">
+        <dex dex="D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\pre-dexed\debug\joda-time-2.9.6_26fe732312fb862ade96157057d69cdb0cb9614f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gass\11.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="6d4384aa06b19d6aecdb87102784d5c0d2ea7532">
+        <dex dex="D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-gass-11.0.1_1d90556edc71bdf0c2230c77946017e255472fff.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-25.3.1_ef49db18e52f3a20e9fe0eecfb30bad329b82f9a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\exploded-aar\com.crashlytics.sdk.android\crashlytics-core\2.3.10\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="2f9a9b21b70965cde70f6eb8f2ee68794fb482e6">
+        <dex dex="D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\pre-dexed\debug\com.crashlytics.sdk.android-crashlytics-core-2.3.10_d9a62b36ab94a13ed748497cec468ce8d097957e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-25.3.1_7ca2d39601cc2db76a35f14d80b7e910bcced4f2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads-lite\11.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="0dc1af4997434691ade16df4be64d49d1bd1fef5">
+        <dex dex="D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-ads-lite-11.0.1_b3453053a3698a886cbd1d492956a8791bb6bfc7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\exploded-aar\com.android.support\transition\25.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="0c6d948e6cb9ea6f535d175fb61ba2930719c0e9">
+        <dex dex="D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\pre-dexed\debug\com.android.support-transition-25.0.0_986a5c8711c1530061138839d556503a7d733ea3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\exploded-aar\com.mikepenz\iconics-core\2.8.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="dcac7435781db56e25ab17c3f662227c517fc327">
+        <dex dex="D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\pre-dexed\debug\com.mikepenz-iconics-core-2.8.0_3c3b67e7d0fbee410a856279e52eee3399cb3f47.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="5e497d60f0cb6ce87c458ac5420a46d0fed49bd0">
+        <dex dex="D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-25.0.0_839cf4b0c422e23191f7f8041ca3eb16f50eb92d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\exploded-aar\com.crashlytics.sdk.android\crashlytics\2.6.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="32246804c761c812b32f01ea7ec7343622d0d91c">
+        <dex dex="D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\pre-dexed\debug\com.crashlytics.sdk.android-crashlytics-2.6.0_1022380a83136a25b405d672dfa244e384079612.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\exploded-aar\com.jakewharton\butterknife\8.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="ca5e58104f56f918f0fb3a5b1b371ab599ae56b2">
+        <dex dex="D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\pre-dexed\debug\com.jakewharton-butterknife-8.2.1_7f6dca075ccaa205490841748b38031cb8f0346f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\exploded-aar\com.crashlytics.sdk.android\beta\1.2.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="35584aa0ef1d87109a997cfed2662801f304a3c0">
+        <dex dex="D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\pre-dexed\debug\com.crashlytics.sdk.android-beta-1.2.0_f15148e3736b9a5b944c1ee08dfb4c45caa20c30.jar" />
+    </item>
+
+</items>

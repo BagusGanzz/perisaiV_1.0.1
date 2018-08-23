@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "D:\\AndroidLibrary\\perisaiV_1.0.1\\app\\build\\intermediates\\res\\merged\\release\\drawable-v12\\b_color_preview_bar_l.xml",
+        "source": "D:\\AndroidLibrary\\perisaiV_1.0.1\\app\\src\\main\\res\\drawable-v12\\b_color_preview_bar_l.xml"
+    },
+    {
+        "merged": "D:\\AndroidLibrary\\perisaiV_1.0.1\\app\\build\\intermediates\\res\\merged\\release\\drawable-v12\\g_color_preview_bar_r.xml",
+        "source": "D:\\AndroidLibrary\\perisaiV_1.0.1\\app\\src\\main\\res\\drawable-v12\\g_color_preview_bar_r.xml"
+    },
+    {
+        "merged": "D:\\AndroidLibrary\\perisaiV_1.0.1\\app\\build\\intermediates\\res\\merged\\release\\drawable-v12\\a_color_preview_bar_l.xml",
+        "source": "D:\\AndroidLibrary\\perisaiV_1.0.1\\app\\src\\main\\res\\drawable-v12\\a_color_preview_bar_l.xml"
+    },
+    {
+        "merged": "D:\\AndroidLibrary\\perisaiV_1.0.1\\app\\build\\intermediates\\res\\merged\\release\\drawable-v12\\r_color_preview_bar_l.xml",
+        "source": "D:\\AndroidLibrary\\perisaiV_1.0.1\\app\\src\\main\\res\\drawable-v12\\r_color_preview_bar_l.xml"
+    },
+    {
+        "merged": "D:\\AndroidLibrary\\perisaiV_1.0.1\\app\\build\\intermediates\\res\\merged\\release\\drawable-v12\\b_color_preview_bar_r.xml",
+        "source": "D:\\AndroidLibrary\\perisaiV_1.0.1\\app\\src\\main\\res\\drawable-v12\\b_color_preview_bar_r.xml"
+    }
+]

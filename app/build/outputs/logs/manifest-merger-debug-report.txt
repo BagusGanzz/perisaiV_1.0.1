@@ -1,0 +1,797 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:2:1-382:12
+	package
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:4:5-37
+		INJECTED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:3:5-51
+	xmlns:android
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml
+supports-screens
+ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:6:5-10:39
+	android:largeScreens
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:8:9-36
+	android:smallScreens
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:10:9-36
+	android:normalScreens
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:9:9-37
+	android:anyDensity
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:7:9-34
+uses-feature#android.hardware.telephony
+ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:12:5-14:36
+	android:required
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:14:9-33
+	android:name
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:13:9-50
+uses-feature#android.hardware.usb.accessory
+ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:15:5-17:36
+	android:required
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:17:9-33
+	android:name
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:16:9-54
+uses-feature#android.hardware.usb.host
+ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:18:5-20:36
+	android:required
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:20:9-33
+	android:name
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:19:9-49
+uses-feature#android.hardware.location
+ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:21:5-23:36
+	android:required
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:23:9-33
+	android:name
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:22:9-49
+uses-feature#android.hardware.wifi
+ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:24:5-26:36
+	android:required
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:26:9-33
+	android:name
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:25:9-45
+uses-feature#android.hardware.camera
+ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:27:5-29:35
+	android:required
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:29:9-32
+	android:name
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:28:9-47
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:31:5-75
+	android:name
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:31:22-72
+uses-permission#com.android.browser.permission.READ_HISTORY_BOOKMARKS
+ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:32:5-93
+	android:name
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:32:22-90
+uses-permission#android.permission.KILL_BACKGROUND_PROCESSES
+ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:33:5-84
+	android:name
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:33:22-81
+uses-permission#com.android.browser.permission.WRITE_HISTORY_BOOKMARKS
+ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:34:5-94
+	android:name
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:34:22-91
+uses-permission#android.permission.CLEAR_APP_CACHE
+ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:35:5-74
+	android:name
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:35:22-71
+uses-permission#android.permission.GET_PACKAGE_SIZE
+ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:36:5-75
+	android:name
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:36:22-72
+uses-permission#android.permission.CAMERA
+ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:37:5-65
+	android:name
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:37:22-62
+uses-permission#android.permission.WAKE_LOCK
+ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:38:5-68
+	android:name
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:38:22-65
+uses-permission#android.permission.REAL_GET_TASKS
+ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:41:5-73
+	android:name
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:41:22-70
+uses-permission#android.permission.VIBRATE
+ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:42:5-66
+	android:name
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:42:22-63
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:43:5-81
+	android:name
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:43:22-78
+uses-permission#android.permission.PROCESS_OUTGOING_CALLS
+ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:44:5-81
+	android:name
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:44:22-78
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:46:5-79
+MERGED from [com.google.android.gms:play-services-ads-lite:11.0.1] D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads-lite\11.0.1\AndroidManifest.xml:20:5-78
+	android:name
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:46:22-76
+uses-permission#android.permission.INTERNET
+ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:47:5-67
+MERGED from [com.google.android.gms:play-services-ads-lite:11.0.1] D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads-lite\11.0.1\AndroidManifest.xml:19:5-66
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.6.0] D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\exploded-aar\com.crashlytics.sdk.android\crashlytics\2.6.0\AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.3.10] D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\exploded-aar\com.crashlytics.sdk.android\crashlytics-core\2.3.10\AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:beta:1.2.0] D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\exploded-aar\com.crashlytics.sdk.android\beta\1.2.0\AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:answers:1.3.8] D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\exploded-aar\com.crashlytics.sdk.android\answers\1.3.8\AndroidManifest.xml:9:5-67
+MERGED from [io.fabric.sdk.android:fabric:1.3.12] D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\exploded-aar\io.fabric.sdk.android\fabric\1.3.12\AndroidManifest.xml:25:5-67
+	android:name
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:47:22-64
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:48:5-76
+	android:name
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:48:22-73
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:50:5-81
+	android:name
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:50:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:51:5-80
+	android:name
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:51:22-77
+uses-permission#android.permission.MANAGE_DOCUMENTS
+ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:52:5-75
+	android:name
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:52:22-72
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:54:5-78
+	android:name
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:54:22-75
+uses-permission-sdk-23
+ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:56:5-85
+	android:name
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:56:29-82
+uses-feature#android.hardware.touchscreen
+ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:58:5-60:36
+	android:required
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:60:9-33
+	android:name
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:59:9-52
+uses-permission#android.permission.PACKAGE_USAGE_STATS
+ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:62:5-64:47
+	xmlns:tools
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:62:22-68
+	tools:ignore
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:64:9-44
+	android:name
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:63:9-62
+uses-permission#android.permission.GET_TASKS
+ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:65:5-68
+	android:name
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:65:22-65
+application
+ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:77:5-380:19
+MERGED from [com.github.ozodrukh:CircularReveal:1.1.1] D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\exploded-aar\com.github.ozodrukh\CircularReveal\1.1.1\AndroidManifest.xml:10:5-20
+MERGED from [com.github.jorgecastilloprz:fillableloaders:1.02] D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\exploded-aar\com.github.jorgecastilloprz\fillableloaders\1.02\AndroidManifest.xml:9:5-10:19
+MERGED from [org.zakariya.stickyheaders:stickyheaders:0.7.5] D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\exploded-aar\org.zakariya.stickyheaders\stickyheaders\0.7.5\AndroidManifest.xml:11:5-14:19
+MERGED from [com.android.support:design:25.0.0] D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\exploded-aar\com.android.support\design\25.0.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:transition:25.0.0] D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\exploded-aar\com.android.support\transition\25.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.mikepenz:aboutlibraries:5.8.0] D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\exploded-aar\com.mikepenz\aboutlibraries\5.8.0\AndroidManifest.xml:11:5-13:19
+MERGED from [com.android.support:cardview-v7:25.0.0] D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\25.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.mikepenz:material-design-iconic-typeface:2.2.0.1] D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\exploded-aar\com.mikepenz\material-design-iconic-typeface\2.2.0.1\AndroidManifest.xml:27:5-20
+MERGED from [com.android.support:appcompat-v7:25.3.1] D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.3.1\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.3.1\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.3.1\AndroidManifest.xml:26:5-20
+MERGED from [com.google.android.gms:play-services-ads-lite:11.0.1] D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads-lite\11.0.1\AndroidManifest.xml:23:5-26:19
+MERGED from [com.google.android.gms:play-services-clearcut:11.0.1] D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-clearcut\11.0.1\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-gass:11.0.1] D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gass\11.0.1\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-safetynet:11.0.1] D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\11.0.1\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-base:11.0.1] D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\11.0.1\AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-tasks:11.0.1] D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\11.0.1\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:11.0.1] D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\11.0.1\AndroidManifest.xml:19:5-21:19
+MERGED from [com.android.support:support-v4:25.3.1] D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.3.1\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.3.1\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.3.1\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.3.1\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.3.1\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.3.1\AndroidManifest.xml:29:5-20
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.6.0] D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\exploded-aar\com.crashlytics.sdk.android\crashlytics\2.6.0\AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.3.10] D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\exploded-aar\com.crashlytics.sdk.android\crashlytics-core\2.3.10\AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:beta:1.2.0] D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\exploded-aar\com.crashlytics.sdk.android\beta\1.2.0\AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:answers:1.3.8] D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\exploded-aar\com.crashlytics.sdk.android\answers\1.3.8\AndroidManifest.xml:11:5-20
+MERGED from [io.fabric.sdk.android:fabric:1.3.12] D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\exploded-aar\io.fabric.sdk.android\fabric\1.3.12\AndroidManifest.xml:27:5-20
+	android:supportsRtl
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:81:9-35
+	android:label
+		ADDED from [com.github.jorgecastilloprz:fillableloaders:1.02] D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\exploded-aar\com.github.jorgecastilloprz\fillableloaders\1.02\AndroidManifest.xml:9:18-50
+	android:allowBackup
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:79:9-35
+	android:icon
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:80:9-43
+	android:theme
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:82:9-43
+	android:name
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:78:9-46
+activity#com.studioninja.locker.ui.MainActivity
+ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:93:9-100:74
+	android:label
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:98:13-53
+	android:excludeFromRecents
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:97:13-46
+	android:autoRemoveFromRecents
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:95:13-49
+	android:launchMode
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:99:13-43
+	android:configChanges
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:96:13-59
+	android:theme
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:100:13-71
+	android:name
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:94:13-44
+activity-alias#com.studioninja.locker.MainActivityAlias
+ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:102:9-107:57
+	android:enabled
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:105:13-35
+	android:label
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:106:13-53
+	android:autoRemoveFromRecents
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:104:13-49
+	android:targetActivity
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:107:13-54
+	android:name
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:103:13-46
+activity#com.perisaimobile.activities.SplishActivity
+ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:109:9-117:20
+	android:screenOrientation
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:111:13-49
+	android:name
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:110:13-71
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:112:13-116:29
+action#android.intent.action.MAIN
+ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:113:17-69
+	android:name
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:113:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:115:17-77
+	android:name
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:115:27-74
+activity#com.perisaimobile.activities.IntroSlider
+ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:119:9-121:20
+	android:name
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:119:19-74
+activity#com.perisaimobile.activities.MainActivityantivirus
+ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:123:9-127:64
+	android:screenOrientation
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:126:13-49
+	android:label
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:125:13-45
+	android:theme
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:127:13-61
+	android:name
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:124:13-78
+activity#com.studioninja.battery.BatteryInfoActivity
+ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:128:9-137:20
+	android:label
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:130:13-50
+	android:stateNotNeeded
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:132:13-42
+	android:launchMode
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:131:13-44
+	android:theme
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:133:13-63
+	android:name
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:129:13-71
+intent-filter#android.intent.action.MAIN
+ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:134:13-136:29
+	android:label
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:134:28-69
+activity#com.studioninja.battery.SettingsActivity
+ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:138:9-141:56
+	android:excludeFromRecents
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:140:13-46
+	android:theme
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:141:13-53
+	android:name
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:139:13-68
+activity#com.studioninja.battery.AlarmEditActivity
+ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:142:9-145:56
+	android:excludeFromRecents
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:144:13-46
+	android:theme
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:145:13-53
+	android:name
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:143:13-69
+activity#com.studioninja.battery.SettingsHelpActivity
+ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:146:9-150:52
+	android:stateNotNeeded
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:149:13-42
+	android:excludeFromRecents
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:148:13-46
+	android:theme
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:150:13-49
+	android:name
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:147:13-72
+activity#com.studioninja.battery.HelpActivity
+ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:151:9-155:52
+	android:stateNotNeeded
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:154:13-42
+	android:excludeFromRecents
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:153:13-46
+	android:theme
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:155:13-49
+	android:name
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:152:13-64
+service#com.studioninja.battery.BatteryInfoService
+ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:157:9-160:72
+	android:process
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:160:13-69
+	android:icon
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:159:13-45
+	android:name
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:158:13-70
+receiver#com.studioninja.battery.BootCompletedReceiver
+ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:162:9-174:20
+	android:enabled
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:164:13-35
+	android:process
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:166:13-69
+	android:exported
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:165:13-36
+	android:name
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:163:13-73
+intent-filter#android.intent.action.BOOT_COMPLETED
+ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:167:13-169:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:168:17-79
+	android:name
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:168:25-76
+intent-filter#android.intent.action.MY_PACKAGE_REPLACED
+ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:170:13-173:29
+action#android.intent.action.MY_PACKAGE_REPLACED
+ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:171:17-84
+	android:name
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:171:25-81
+receiver#com.studioninja.battery.BatteryInfoAppWidgetProvider
+ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:175:9-188:20
+	android:enabled
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:177:13-35
+	android:process
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:180:13-69
+	android:label
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:179:13-50
+	android:exported
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:178:13-36
+	android:name
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:176:13-80
+intent-filter#android.appwidget.action.APPWIDGET_UPDATE
+ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:181:13-183:29
+action#android.appwidget.action.APPWIDGET_UPDATE
+ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:182:17-84
+	android:name
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:182:25-81
+meta-data#android.appwidget.provider
+ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:185:13-187:66
+	android:resource
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:187:17-63
+	android:name
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:186:17-58
+receiver#com.studioninja.battery.FullAppWidgetProvider
+ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:189:9-202:20
+	android:enabled
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:191:13-35
+	android:process
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:194:13-69
+	android:label
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:193:13-48
+	android:exported
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:192:13-36
+	android:name
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:190:13-73
+activity#com.perisaimobile.uninstaller
+ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:204:9-207:52
+	android:screenOrientation
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:207:13-49
+	android:label
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:206:13-40
+	android:name
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:205:13-57
+activity#com.perisaimobile.activities.ScanningActivity
+ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:208:9-210:52
+	android:screenOrientation
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:210:13-49
+	android:name
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:209:13-73
+activity#com.perisaimobile.activities.ResultActivity
+ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:211:9-213:52
+	android:screenOrientation
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:213:13-49
+	android:name
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:212:13-71
+activity#com.perisaimobile.activities.ProblemDetailActivity
+ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:214:9-216:52
+	android:screenOrientation
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:216:13-49
+	android:name
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:215:13-78
+service#com.perisaimobile.service.MonitorShieldService
+ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:218:9-220:38
+	android:enabled
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:220:13-35
+	android:name
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:219:13-74
+receiver#com.perisaimobile.receiver.BootCompletedReceiver
+ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:222:9-233:20
+	android:enabled
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:224:13-35
+	android:exported
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:225:13-36
+	android:name
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:223:13-76
+intent-filter#android.intent.action.BOOT_COMPLETED+android.intent.action.QUICKBOOT_POWERON+android.intent.action.SCREEN_ON+android.intent.action.USER_PRESENT+android.net.wifi.WIFI_STATE_CHANGED
+ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:226:13-232:29
+	android:priority
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:226:28-57
+action#android.intent.action.QUICKBOOT_POWERON
+ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:227:17-82
+	android:name
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:227:25-79
+action#android.intent.action.USER_PRESENT
+ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:229:17-77
+	android:name
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:229:25-74
+action#android.net.wifi.WIFI_STATE_CHANGED
+ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:230:17-78
+	android:name
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:230:25-75
+action#android.intent.action.SCREEN_ON
+ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:231:17-74
+	android:name
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:231:25-71
+activity#com.perisaimobile.activities.privacy
+ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:235:9-237:52
+	android:screenOrientation
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:237:13-49
+	android:name
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:236:13-64
+activity#com.perisaimobile.activities.boosterscan
+ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:238:9-240:52
+	android:screenOrientation
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:240:13-49
+	android:name
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:239:13-68
+activity#com.perisaimobile.activities.SettingsActivity
+ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:241:9-243:52
+	android:screenOrientation
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:243:13-49
+	android:name
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:242:13-73
+activity#com.perisaimobile.activities.PhoneInfoActivity
+ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:244:9-246:52
+	android:screenOrientation
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:246:13-49
+	android:name
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:245:13-74
+activity#com.perisaimobile.activities.IgnoredListActivity
+ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:247:9-249:52
+	android:screenOrientation
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:249:13-49
+	android:name
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:248:13-76
+activity#com.perisaimobile.activities.AppLockScreenActivity
+ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:250:9-252:52
+	android:screenOrientation
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:252:13-49
+	android:name
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:251:13-78
+activity#com.perisaimobile.activities.AppLockHomeActivity
+ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:253:9-255:52
+	android:screenOrientation
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:255:13-49
+	android:name
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:254:13-76
+activity#com.perisaimobile.activities.AppLockCreatePasswordActivity
+ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:256:9-258:52
+	android:screenOrientation
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:258:13-49
+	android:name
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:257:13-86
+activity#com.perisaimobile.activities.AppLockSettingsActivity
+ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:259:9-261:52
+	android:screenOrientation
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:261:13-49
+	android:name
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:260:13-80
+activity#com.perisaimobile.activities.AppLockEditPasswordActivity
+ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:262:9-264:52
+	android:screenOrientation
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:264:13-49
+	android:name
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:263:13-84
+activity#com.perisaimobile.activities.AppLockForgotPasswordActivity
+ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:265:9-268:52
+	android:screenOrientation
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:268:13-49
+	android:excludeFromRecents
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:267:13-46
+	android:name
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:266:13-86
+activity#com.perisaimobile.activities.ResultAppLockCreatePasswordActivity
+ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:269:9-271:52
+	android:screenOrientation
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:271:13-49
+	android:name
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:270:13-92
+activity#com.perisaimobile.activities.AppLockImagesActivity
+ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:272:9-274:52
+	android:screenOrientation
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:274:13-49
+	android:name
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:273:13-78
+activity#com.perisaimobile.activities.AppLockImageActivity
+ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:275:9-277:52
+	android:screenOrientation
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:277:13-49
+	android:name
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:276:13-77
+activity#com.perisaimobile.activities.ScanningResultActivity
+ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:278:9-280:52
+	android:screenOrientation
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:280:13-49
+	android:name
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:279:13-79
+service#com.perisaimobile.service.MyAccessibilityService
+ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:282:9-293:19
+	android:label
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:284:13-52
+	android:permission
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:285:13-79
+	android:name
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:283:13-76
+intent-filter#android.accessibilityservice.AccessibilityService
+ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:286:13-288:29
+action#android.accessibilityservice.AccessibilityService
+ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:287:17-92
+	android:name
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:287:25-89
+meta-data#android.accessibilityservice
+ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:290:13-292:57
+	android:resource
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:292:17-54
+	android:name
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:291:17-60
+service#com.perisaimobile.service.BoosterService
+ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:294:9-297:39
+	android:enabled
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:296:13-35
+	android:exported
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:297:13-36
+	android:name
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:295:13-68
+activity#com.perisaimobile.activities.SafeActivity
+ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:299:9-301:52
+	android:screenOrientation
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:301:13-49
+	android:name
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:300:13-69
+service#com.perisaimobile.service.LockService
+ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:303:9-306:39
+	android:enabled
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:305:13-35
+	android:exported
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:306:13-36
+	android:name
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:304:13-65
+service#com.studioninja.locker.lock.AppLockService
+ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:307:9-56
+	android:name
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:307:18-53
+service#com.studioninja.locker.lock.LockService
+ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:308:9-53
+	android:name
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:308:18-50
+service#com.studioninja.locker.lock.HelperService
+ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:309:9-55
+	android:name
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:309:18-52
+receiver#com.studioninja.locker.receivers.OutgoingCallReceiver
+ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:311:9-315:20
+	android:name
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:311:19-65
+intent-filter#android.intent.action.NEW_OUTGOING_CALL
+ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:312:13-314:29
+action#android.intent.action.NEW_OUTGOING_CALL
+ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:313:17-82
+	android:name
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:313:25-79
+receiver#com.studioninja.locker.receivers.BootCompleteReceiver
+ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:316:9-320:20
+	android:name
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:316:19-65
+receiver#com.studioninja.locker.receivers.NetworkStateReceiver
+ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:321:9-325:20
+	android:name
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:321:19-65
+intent-filter#android.net.wifi.STATE_CHANGE
+ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:322:13-324:29
+action#android.net.wifi.STATE_CHANGE
+ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:323:17-72
+	android:name
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:323:25-69
+activity#com.studioninja.locker.ui.SdcardImages
+ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:334:9-337:52
+	android:screenOrientation
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:337:13-49
+	android:autoRemoveFromRecents
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:336:13-49
+	android:name
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:335:13-44
+activity#com.studioninja.locker.ui.Sdcard_photo
+ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:338:9-342:73
+	android:screenOrientation
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:341:13-49
+	android:autoRemoveFromRecents
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:340:13-49
+	android:theme
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:342:13-71
+	android:name
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:339:13-44
+activity#com.studioninja.locker.ui.Sdcard_Videos
+ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:343:9-347:73
+	android:screenOrientation
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:346:13-49
+	android:autoRemoveFromRecents
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:345:13-49
+	android:theme
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:347:13-71
+	android:name
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:344:13-45
+activity#com.studioninja.locker.ui.Sdcard_VideosAlbum
+ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:348:9-351:52
+	android:screenOrientation
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:351:13-49
+	android:autoRemoveFromRecents
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:350:13-49
+	android:name
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:349:13-50
+activity#com.studioninja.locker.ui.Hide_photos
+ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:352:9-355:52
+	android:screenOrientation
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:355:13-49
+	android:autoRemoveFromRecents
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:354:13-49
+	android:name
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:353:13-43
+activity#com.studioninja.locker.ui.Hide_Videos
+ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:356:9-359:52
+	android:screenOrientation
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:359:13-49
+	android:autoRemoveFromRecents
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:358:13-49
+	android:name
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:357:13-43
+activity#com.studioninja.locker.ui.ThemeSlider
+ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:360:9-363:52
+	android:screenOrientation
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:363:13-49
+	android:autoRemoveFromRecents
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:362:13-49
+	android:name
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:361:13-43
+receiver#com.studioninja.locker.lock.LolipopReciever
+ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:365:9-369:20
+	android:name
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:365:19-55
+intent-filter#action.check.lollipop
+ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:366:13-368:29
+action#action.check.lollipop
+ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:367:17-64
+	android:name
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:367:25-61
+meta-data#com.google.android.gms.version
+ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:371:9-373:69
+MERGED from [com.google.android.gms:play-services-basement:11.0.1] D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\11.0.1\AndroidManifest.xml:20:9-121
+	android:value
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:373:13-66
+	android:name
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:372:13-58
+meta-data#io.fabric.ApiKey
+ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:374:9-376:72
+	android:value
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:376:13-69
+	android:name
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:375:13-44
+activity#com.perisaimobile.activities.SafeboosterActivity
+ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:378:9-85
+	android:name
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:378:19-82
+activity#com.perisaimobile.activities.SafejunkActivity
+ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:379:9-91
+	android:name
+		ADDED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml:379:19-79
+uses-sdk
+INJECTED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.jakewharton:butterknife:8.2.1] D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\exploded-aar\com.jakewharton\butterknife\8.2.1\AndroidManifest.xml:5:5-43
+MERGED from [com.takwolf.android:lock9view:0.0.11] D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\exploded-aar\com.takwolf.android\lock9view\0.0.11\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.ViksaaSkool:AwesomeSplash:v1.0.0] D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\exploded-aar\com.github.ViksaaSkool\AwesomeSplash\v1.0.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.daimajia.androidanimations:library:1.1.3] D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\exploded-aar\com.daimajia.androidanimations\library\1.1.3\AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.ozodrukh:CircularReveal:1.1.1] D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\exploded-aar\com.github.ozodrukh\CircularReveal\1.1.1\AndroidManifest.xml:6:5-8:41
+MERGED from [com.daimajia.easing:library:1.0.1] D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\exploded-aar\com.daimajia.easing\library\1.0.1\AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.jorgecastilloprz:fillableloaders:1.02] D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\exploded-aar\com.github.jorgecastilloprz\fillableloaders\1.02\AndroidManifest.xml:5:5-7:41
+MERGED from [com.getkeepsafe.taptargetview:taptargetview:1.11.0] D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\exploded-aar\com.getkeepsafe.taptargetview\taptargetview\1.11.0\AndroidManifest.xml:6:5-44
+MERGED from [com.liulishuo.magicprogresswidget:library:1.0.9] D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\exploded-aar\com.liulishuo.magicprogresswidget\library\1.0.9\AndroidManifest.xml:8:5-10:41
+MERGED from [cn.dreamtobe.percentsmoothhandler:library:0.1.1] D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\exploded-aar\cn.dreamtobe.percentsmoothhandler\library\0.1.1\AndroidManifest.xml:8:5-10:41
+MERGED from [org.zakariya.stickyheaders:stickyheaders:0.7.5] D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\exploded-aar\org.zakariya.stickyheaders\stickyheaders\0.7.5\AndroidManifest.xml:7:5-9:41
+MERGED from [com.mikepenz:crossfadedrawerlayout:1.0.0] D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\exploded-aar\com.mikepenz\crossfadedrawerlayout\1.0.0\AndroidManifest.xml:8:5-10:41
+MERGED from [com.mikepenz:materialdrawer:5.5.0] D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\exploded-aar\com.mikepenz\materialdrawer\5.5.0\AndroidManifest.xml:8:5-10:41
+MERGED from [com.mikepenz:fastadapter:1.7.0] D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\exploded-aar\com.mikepenz\fastadapter\1.7.0\AndroidManifest.xml:8:5-10:41
+MERGED from [com.mikepenz:materialize:1.0.0] D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\exploded-aar\com.mikepenz\materialize\1.0.0\AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:design:25.0.0] D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\exploded-aar\com.android.support\design\25.0.0\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:transition:25.0.0] D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\exploded-aar\com.android.support\transition\25.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.mikepenz:aboutlibraries:5.8.0] D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\exploded-aar\com.mikepenz\aboutlibraries\5.8.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:recyclerview-v7:25.0.0] D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.0.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:cardview-v7:25.0.0] D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\25.0.0\AndroidManifest.xml:20:5-43
+MERGED from [com.mikepenz:iconics-core:2.8.0] D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\exploded-aar\com.mikepenz\iconics-core\2.8.0\AndroidManifest.xml:8:5-10:41
+MERGED from [com.mikepenz:material-design-iconic-typeface:2.2.0.1] D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\exploded-aar\com.mikepenz\material-design-iconic-typeface\2.2.0.1\AndroidManifest.xml:23:5-25:41
+MERGED from [com.mikepenz:fontawesome-typeface:4.4.0.1] D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\exploded-aar\com.mikepenz\fontawesome-typeface\4.4.0.1\AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:appcompat-v7:25.3.1] D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.3.1\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.3.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.3.1\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-ads:11.0.1] D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\11.0.1\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-ads-lite:11.0.1] D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads-lite\11.0.1\AndroidManifest.xml:22:5-43
+MERGED from [com.google.android.gms:play-services-clearcut:11.0.1] D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-clearcut\11.0.1\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-gass:11.0.1] D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gass\11.0.1\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-safetynet:11.0.1] D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\11.0.1\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-base:11.0.1] D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\11.0.1\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-tasks:11.0.1] D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\11.0.1\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-basement:11.0.1] D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\11.0.1\AndroidManifest.xml:17:5-43
+MERGED from [com.android.support:support-v4:25.3.1] D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.3.1\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.1] D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.3.1\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.3.1\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.3.1] D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.3.1\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.3.1] D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.3.1\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.3.1] D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.3.1\AndroidManifest.xml:21:5-23:58
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.6.0] D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\exploded-aar\com.crashlytics.sdk.android\crashlytics\2.6.0\AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.3.10] D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\exploded-aar\com.crashlytics.sdk.android\crashlytics-core\2.3.10\AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:beta:1.2.0] D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\exploded-aar\com.crashlytics.sdk.android\beta\1.2.0\AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:answers:1.3.8] D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\exploded-aar\com.crashlytics.sdk.android\answers\1.3.8\AndroidManifest.xml:7:5-43
+MERGED from [io.fabric.sdk.android:fabric:1.3.12] D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\exploded-aar\io.fabric.sdk.android\fabric\1.3.12\AndroidManifest.xml:23:5-43
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:25.0.0] D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\exploded-aar\com.android.support\design\25.0.0\AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\src\main\AndroidManifest.xml
+activity#com.mikepenz.aboutlibraries.ui.LibsActivity
+ADDED from [com.mikepenz:aboutlibraries:5.8.0] D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\exploded-aar\com.mikepenz\aboutlibraries\5.8.0\AndroidManifest.xml:12:9-80
+	android:name
+		ADDED from [com.mikepenz:aboutlibraries:5.8.0] D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\exploded-aar\com.mikepenz\aboutlibraries\5.8.0\AndroidManifest.xml:12:19-77
+meta-data#android.support.VERSION
+ADDED from [com.android.support:appcompat-v7:25.3.1] D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.3.1\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.3.1\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.3.1\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-v4:25.3.1] D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.3.1\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.3.1\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.3.1\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.3.1\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.3.1\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.3.1\AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:appcompat-v7:25.3.1] D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.3.1\AndroidManifest.xml:27:9-31
+	android:name
+		ADDED from [com.android.support:appcompat-v7:25.3.1] D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.3.1\AndroidManifest.xml:26:9-47
+activity#com.google.android.gms.ads.AdActivity
+ADDED from [com.google.android.gms:play-services-ads-lite:11.0.1] D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads-lite\11.0.1\AndroidManifest.xml:25:9-232
+	android:configChanges
+		ADDED from [com.google.android.gms:play-services-ads-lite:11.0.1] D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads-lite\11.0.1\AndroidManifest.xml:25:72-181
+	android:theme
+		ADDED from [com.google.android.gms:play-services-ads-lite:11.0.1] D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads-lite\11.0.1\AndroidManifest.xml:25:182-230
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:11.0.1] D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads-lite\11.0.1\AndroidManifest.xml:25:19-71
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:11.0.1] D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\11.0.1\AndroidManifest.xml:19:9-172
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:11.0.1] D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\11.0.1\AndroidManifest.xml:19:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:11.0.1] D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\11.0.1\AndroidManifest.xml:19:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:11.0.1] D:\Data Bagus Backup\Bagus File\perisaiV_1.0.1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\11.0.1\AndroidManifest.xml:19:19-85

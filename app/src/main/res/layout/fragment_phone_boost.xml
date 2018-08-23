@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background_danger"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24.0dip"
+        android:layout_marginTop="16.0dip">
+
+        <TextView
+            android:id="@+id/tv_memory_boost"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:text="458"
+            android:textColor="@android:color/white"
+            android:textSize="56.0sp" />
+
+        <TextView
+            android:id="@+id/tv_mb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/tv_memory_boost"
+            android:padding="8.0dip"
+            android:text="MB"
+            android:textColor="@android:color/white"
+            android:textSize="18.0sp" />
+
+        <TextView
+            android:id="@+id/tv_freeable"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/tv_memory_boost"
+            android:layout_gravity="bottom"
+            android:layout_toRightOf="@+id/tv_memory_boost"
+            android:gravity="bottom"
+            android:padding="8.0dip"
+            android:text="@string/freeable"
+            android:textColor="#80ffffff"
+            android:textSize="16.0sp" />
+
+        <TextView
+            android:id="@+id/tv_count_running_app"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_memory_boost"
+            android:layout_centerHorizontal="true"
+            android:text="25 apps running"
+            android:textColor="@android:color/white"
+            android:textSize="16.0sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@android:color/white">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rv_application"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_above="@+id/framelayout_boost" />
+
+        <FrameLayout
+            android:id="@+id/framelayout_boost"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="8.0dip"
+            android:background="@mipmap/bt_boost"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/tv_boost"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="@android:color/white"
+                android:textSize="18.0sp" />
+        </FrameLayout>
+    </RelativeLayout>
+</LinearLayout>

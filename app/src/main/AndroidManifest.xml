@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.studioninja.locker">
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="true" />
+
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.usb.accessory"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.usb.host"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.location"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.wifi"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="com.android.browser.permission.READ_HISTORY_BOOKMARKS" />
+    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES" />
+    <uses-permission android:name="com.android.browser.permission.WRITE_HISTORY_BOOKMARKS" />
+    <uses-permission android:name="android.permission.CLEAR_APP_CACHE" />
+    <uses-permission android:name="android.permission.GET_PACKAGE_SIZE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <!-- v1.0.0 -->
+    <uses-permission android:name="android.permission.REAL_GET_TASKS" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.PROCESS_OUTGOING_CALLS" />
+    <!-- v2.1.0 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <!-- 2.1.2 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MANAGE_DOCUMENTS" />
+    <!-- Draw over other apps -->
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+
+    <uses-permission-sdk-23 android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+
+    <uses-feature
+        android:name="android.hardware.touchscreen"
+        android:required="false" />
+
+    <uses-permission xmlns:tools="http://schemas.android.com/tools"
+        android:name="android.permission.PACKAGE_USAGE_STATS"
+        tools:ignore="ProtectedPermissions" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="true" />
+
+    <!-- 23.03 -->
+    <!-- Take pictures of intruder -->
+    <!-- <uses-permission android:name="android.permission.CAMERA" /> -->
+    <!--  -->
+    <application
+        android:name="com.studioninja.Locker"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppThemetwo">
+
+        <!--
+        For goole play services
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        -->
+
+
+        <!-- No history causes background change not working (because of startActivityForResult() -->
+        <activity
+            android:name=".ui.MainActivity"
+            android:autoRemoveFromRecents="true"
+            android:configChanges="orientation|screenSize"
+            android:excludeFromRecents="true"
+            android:label="@string/application_name"
+            android:launchMode="singleTop"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
+
+        <activity-alias
+            android:name=".MainActivityAlias"
+            android:autoRemoveFromRecents="true"
+            android:enabled="true"
+            android:label="@string/application_name"
+            android:targetActivity=".ui.MainActivity" />
+
+        <activity
+            android:name="com.perisaimobile.activities.SplishActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name="com.perisaimobile.activities.IntroSlider">
+
+        </activity>
+
+        <activity
+            android:name="com.perisaimobile.activities.MainActivityantivirus"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/MaterialDrawerTheme.Light" />
+        <activity
+            android:name="com.studioninja.battery.BatteryInfoActivity"
+            android:label="@string/app_full_name"
+            android:launchMode="singleTask"
+            android:stateNotNeeded="true"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+            <intent-filter android:label="@string/app_launcher_name">
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.studioninja.battery.SettingsActivity"
+            android:excludeFromRecents="true"
+            android:theme="@style/bi_settings_theme" />
+        <activity
+            android:name="com.studioninja.battery.AlarmEditActivity"
+            android:excludeFromRecents="true"
+            android:theme="@style/bi_settings_theme" />
+        <activity
+            android:name="com.studioninja.battery.SettingsHelpActivity"
+            android:excludeFromRecents="true"
+            android:stateNotNeeded="true"
+            android:theme="@style/bi_help_theme" />
+        <activity
+            android:name="com.studioninja.battery.HelpActivity"
+            android:excludeFromRecents="true"
+            android:stateNotNeeded="true"
+            android:theme="@style/bi_help_theme" />
+
+        <service
+            android:name="com.studioninja.battery.BatteryInfoService"
+            android:icon="@drawable/battery"
+            android:process="com.darshancomputing.BatteryBotPro.BIS" />
+
+        <receiver
+            android:name="com.studioninja.battery.BootCompletedReceiver"
+            android:enabled="true"
+            android:exported="true"
+            android:process="com.darshancomputing.BatteryBotPro.BIS">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+                <!-- data android:scheme="package" android:path="com.darshancomputing.BatteryIndicatorPro" / -->
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.studioninja.battery.BatteryInfoAppWidgetProvider"
+            android:enabled="true"
+            android:exported="true"
+            android:label="@string/circle_widget"
+            android:process="com.darshancomputing.BatteryBotPro.BIS">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/circle_app_widget_info" />
+        </receiver>
+        <receiver
+            android:name="com.studioninja.battery.FullAppWidgetProvider"
+            android:enabled="true"
+            android:exported="true"
+            android:label="@string/full_widget"
+            android:process="com.darshancomputing.BatteryBotPro.BIS">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/full_app_widget_info" />
+        </receiver>
+
+        <activity
+            android:name="com.perisaimobile.uninstaller"
+            android:label="APP MANAGER"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.perisaimobile.activities.ScanningActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.perisaimobile.activities.ResultActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.perisaimobile.activities.ProblemDetailActivity"
+            android:screenOrientation="portrait" />
+
+        <service
+            android:name="com.perisaimobile.service.MonitorShieldService"
+            android:enabled="true" />
+
+        <receiver
+            android:name="com.perisaimobile.receiver.BootCompletedReceiver"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter android:priority="2147483647">
+                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.USER_PRESENT" />
+                <action android:name="android.net.wifi.WIFI_STATE_CHANGED" />
+                <action android:name="android.intent.action.SCREEN_ON" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name="com.perisaimobile.activities.privacy"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.perisaimobile.activities.boosterscan"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.perisaimobile.activities.SettingsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.perisaimobile.activities.PhoneInfoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.perisaimobile.activities.IgnoredListActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.perisaimobile.activities.AppLockScreenActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.perisaimobile.activities.AppLockHomeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.perisaimobile.activities.AppLockCreatePasswordActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.perisaimobile.activities.AppLockSettingsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.perisaimobile.activities.AppLockEditPasswordActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.perisaimobile.activities.AppLockForgotPasswordActivity"
+            android:excludeFromRecents="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.perisaimobile.activities.ResultAppLockCreatePasswordActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.perisaimobile.activities.AppLockImagesActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.perisaimobile.activities.AppLockImageActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.perisaimobile.activities.ScanningResultActivity"
+            android:screenOrientation="portrait" />
+
+        <service
+            android:name="com.perisaimobile.service.MyAccessibilityService"
+            android:label="PERISAI Mobile Security"
+            android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE">
+            <intent-filter>
+                <action android:name="android.accessibilityservice.AccessibilityService" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.accessibilityservice"
+                android:resource="@xml/serviceconfig" />
+        </service>
+        <service
+            android:name="com.perisaimobile.service.BoosterService"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity
+            android:name="com.perisaimobile.activities.SafeActivity"
+            android:screenOrientation="portrait" />
+
+        <service
+            android:name="com.perisaimobile.service.LockService"
+            android:enabled="true"
+            android:exported="true" />
+        <service android:name=".lock.AppLockService" />
+        <service android:name=".lock.LockService" />
+        <service android:name=".lock.HelperService" />
+
+        <receiver android:name=".receivers.OutgoingCallReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.NEW_OUTGOING_CALL" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".receivers.BootCompleteReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".receivers.NetworkStateReceiver">
+            <intent-filter>
+                <action android:name="android.net.wifi.STATE_CHANGE" />
+            </intent-filter>
+        </receiver>
+        <!--
+             <receiver android:name="org.twinone.locker.version.Receiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+        -->
+
+        <activity
+            android:name=".ui.SdcardImages"
+            android:autoRemoveFromRecents="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.Sdcard_photo"
+            android:autoRemoveFromRecents="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar"/>
+        <activity
+            android:name=".ui.Sdcard_Videos"
+            android:autoRemoveFromRecents="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar"/>
+        <activity
+            android:name=".ui.Sdcard_VideosAlbum"
+            android:autoRemoveFromRecents="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.Hide_photos"
+            android:autoRemoveFromRecents="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.Hide_Videos"
+            android:autoRemoveFromRecents="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.ThemeSlider"
+            android:autoRemoveFromRecents="true"
+            android:screenOrientation="portrait" />
+
+        <receiver android:name=".lock.LolipopReciever">
+            <intent-filter>
+                <action android:name="action.check.lollipop" />
+            </intent-filter>
+        </receiver>
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="c15b9831c5e25f4d4e82d9725791b8eaeb7bd617" />
+
+        <activity android:name="com.perisaimobile.activities.SafeboosterActivity" />
+        <activity android:name="com.perisaimobile.activities.SafejunkActivity"></activity>
+    </application>
+
+</manifest>

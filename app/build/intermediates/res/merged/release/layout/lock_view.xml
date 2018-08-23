@@ -1,0 +1,119 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background_lockscreen"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_above="@+id/frame"
+            android:layout_alignParentTop="true">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginBottom="8.0dip"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/img_app_icon"
+                    android:layout_width="48.0dip"
+                    android:layout_height="48.0dip"
+                    android:layout_centerInParent="true"
+                    android:layout_gravity="center"
+                    android:src="@mipmap/ic_launcher" />
+
+                <FrameLayout
+                    android:layout_width="1.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="8.0dip"
+                    android:layout_marginRight="8.0dip"
+                    android:background="@android:color/white" />
+
+                <TextView
+                    android:id="@+id/tv_app_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_gravity="center"
+                    android:ellipsize="marquee"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:marqueeRepeatLimit="marquee_forever"
+                    android:padding="8.0dip"
+                    android:scrollHorizontally="true"
+                    android:singleLine="true"
+                    android:text="Google Play"
+                    android:textColor="@android:color/white"
+                    android:textSize="22.0sp" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/img_close"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="16.0dip"
+                android:layout_marginTop="32.0dip"
+                android:src="@drawable/ic_booster_close" />
+        </RelativeLayout>
+
+        <FrameLayout
+            android:id="@+id/frame"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true">
+
+            <com.takwolf.android.lock9.Lock9View
+                android:id="@+id/lock_view"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="36.0dip"
+                android:visibility="visible"
+                ads:lock9_autoLink="true"
+                ads:lock9_enableVibrate="true"
+                ads:lock9_lineColor="#ffffffff"
+                ads:lock9_lineWidth="4.0dip"
+                ads:lock9_nodeAreaExpand="24.0dip"
+                ads:lock9_nodeOnAnim="@anim/node_on_2"
+                ads:lock9_nodeOnSrc="@drawable/ic_circle"
+                ads:lock9_nodeSize="16.0dip"
+                ads:lock9_nodeSrc="@drawable/ic_circle"
+                ads:lock9_vibrateTime="20" />
+
+            <com.takwolf.android.lock9.Lock9View
+                android:id="@+id/lock_view_disvibrate"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="24.0dip"
+                android:visibility="gone"
+                ads:lock9_autoLink="true"
+                ads:lock9_enableVibrate="false"
+                ads:lock9_lineColor="#ffffffff"
+                ads:lock9_lineWidth="4.0dip"
+                ads:lock9_nodeAreaExpand="24.0dip"
+                ads:lock9_nodeOnAnim="@anim/node_on_2"
+                ads:lock9_nodeOnSrc="@drawable/ic_circle"
+                ads:lock9_nodeSize="16.0dip"
+                ads:lock9_nodeSrc="@drawable/ic_circle"
+                ads:lock9_vibrateTime="20" />
+
+        </FrameLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

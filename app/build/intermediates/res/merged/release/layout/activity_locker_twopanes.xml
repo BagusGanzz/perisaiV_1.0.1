@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:id="@id/lock_root_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@id/lock_iv_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:background="@drawable/bg_lock"
+        android:scaleType="centerCrop" />
+
+    <RelativeLayout
+        android:id="@id/lock_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:id="@id/lock_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:orientation="horizontal" >
+
+            <RelativeLayout
+                android:id="@+id/lock_left_panel"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_toLeftOf="@id/lock_right_panel"
+                android:layout_weight=".25"
+                android:gravity="center_vertical" >
+
+                <ScrollView
+                    android:id="@id/lock_twopanes_left_scroller"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true" >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical" >
+
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:background="@drawable/icon_bg_circle"
+                            android:orientation="horizontal" >
+
+                            <ImageView
+                                android:id="@id/lock_iv_app_icon"
+                                android:layout_width="72dp"
+                                android:layout_height="72dp"
+                                android:layout_centerInParent="true"
+                                android:layout_marginRight="8dp" />
+
+                            <TextView
+                                android:id="@id/lock_tv_title"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="24dp"
+                                android:visibility="gone" />
+                        </RelativeLayout>
+
+                        <TextView
+                            android:visibility="gone"
+                            android:id="@id/lock_tv_footer"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="@android:style/TextAppearance.Small" />
+                    </LinearLayout>
+                </ScrollView>
+
+                <LinearLayout
+                    android:id="@id/lock_footer_buttons"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/lock_twopanes_left_scroller"
+                    android:layout_marginTop="@dimen/activity_vertical_margin"
+                    android:orientation="vertical"
+                    android:visibility="gone" >
+
+                    <Button
+                        android:id="@id/lock_footer_b_right"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="4dp" />
+
+                    <Button
+                        android:id="@id/lock_footer_b_left"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp" />
+                </LinearLayout>
+            </RelativeLayout> <!-- Min width 320 for ads! :) -->
+
+            <RelativeLayout
+                android:id="@id/lock_right_panel"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginLeft="5dp"
+                android:layout_weight=".75"
+                android:minWidth="320dp" >
+
+                <RelativeLayout
+                    android:id="@id/lock_ad_container"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="@dimen/element_vertical_margin"
+                    android:minHeight="50dp"
+                    android:minWidth="320dp"
+                    android:visibility="gone" >
+                </RelativeLayout>
+
+                <com.google.android.gms.ads.AdView
+                    android:id="@+id/adView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    ads:adSize="BANNER"
+                    android:layout_centerHorizontal="true"
+                    ads:adUnitId="@string/banner_ad_unit_id">
+                </com.google.android.gms.ads.AdView>
+                <!-- This view dynamically adapts to the password type chosen by the user -->
+
+                <LinearLayout
+                    android:id="@id/lock_lockview"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_above="@id/lock_ad_container"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:visibility="visible" >
+
+                    <TextView
+                        android:id="@id/lock_tv_password"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:background="@android:color/transparent"
+                        android:enabled="false"
+                        android:focusable="false"
+                        android:focusableInTouchMode="false"
+                        android:gravity="center"
+                        android:inputType="textPassword"
+                        android:textColor="#ffffff"
+                        android:textSize="30dp"
+                        android:visibility="gone" >
+                    </TextView>
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

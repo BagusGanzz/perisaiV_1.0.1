@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="Lock9View"><attr format="color|reference" name="lock9_nodeSrc"/><attr format="color|reference" name="lock9_nodeOnSrc"/><attr format="dimension" name="lock9_nodeSize"/><attr format="dimension" name="lock9_nodeAreaExpand"/><attr format="reference" name="lock9_nodeOnAnim"/><attr format="color" name="lock9_lineColor"/><attr format="dimension" name="lock9_lineWidth"/><attr format="dimension" name="lock9_padding"/><attr format="dimension" name="lock9_spacing"/><attr format="boolean" name="lock9_autoLink"/><attr format="boolean" name="lock9_enableVibrate"/><attr format="integer" name="lock9_vibrateTime"/></declare-styleable>
+</resources>

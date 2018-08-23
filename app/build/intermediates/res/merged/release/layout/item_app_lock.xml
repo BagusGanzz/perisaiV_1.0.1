@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/la_item"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="?selectableItemBackground"
+    android:focusable="true"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="12.0dip">
+
+        <ImageView
+            android:id="@+id/img_icon_app"
+            android:layout_width="48.0dip"
+            android:layout_height="48.0dip"
+            android:src="@mipmap/ic_phoneboost_main_result" />
+
+        <TextView
+            android:id="@+id/tv_application_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="8.0dip"
+            android:layout_toLeftOf="@+id/toggle_lock"
+            android:layout_toRightOf="@+id/img_icon_app"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:paddingRight="16.0dip"
+            android:text="Flipboard"
+            android:textColor="#ff000000"
+            android:textSize="18.0sp" />
+
+        <ToggleButton
+            android:id="@+id/toggle_lock"
+            android:layout_width="24.0dip"
+            android:layout_height="24.0dip"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/toggle_lock"
+            android:textOff="@null"
+            android:textOn="@null" />
+    </RelativeLayout>
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="1.0dip"
+        android:background="#4d999999" />
+</LinearLayout>

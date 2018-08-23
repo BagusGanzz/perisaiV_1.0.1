@@ -1,0 +1,243 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/settings_background"
+    android:orientation="vertical">
+
+    <include layout="@layout/tool_bar" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@android:color/white">
+
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/title"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#fff6f7fb"
+                    android:orientation="horizontal"
+                    android:paddingBottom="6.0dip"
+                    android:paddingLeft="16.0dip"
+                    android:paddingTop="6.0dip"
+                    android:text="@string/enable_applocker"
+                    android:textColor="#ff333333"
+                    android:textSize="16.0sp" />
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="16.0dip">
+
+                    <TextView
+                        android:id="@+id/tv_applocker_service"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/applocker_service"
+                        android:textColor="@android:color/black"
+                        android:textSize="18.0sp" />
+
+                    <TextView
+                        android:id="@+id/tv_applocker_service_decription"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/tv_applocker_service"
+                        android:text="@string/applocker_running"
+                        android:textSize="16.0sp" />
+
+                    <CheckBox
+                        android:id="@+id/checkbox_applocker_service"
+                        android:layout_width="36.0dip"
+                        android:layout_height="36.0dip"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:theme="@style/checkBoxTheme" />
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/title_1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#fff6f7fb"
+                    android:orientation="horizontal"
+                    android:paddingBottom="6.0dip"
+                    android:paddingLeft="16.0dip"
+                    android:paddingTop="6.0dip"
+                    android:text="@string/edit_applocker"
+                    android:textColor="#ff333333"
+                    android:textSize="16.0sp" />
+
+                <RelativeLayout
+                    android:id="@+id/item_edit_password"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="16.0dip">
+
+                    <TextView
+                        android:id="@+id/tv_edit_password"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/edit_password"
+                        android:textColor="@android:color/black"
+                        android:textSize="18.0sp" />
+
+                    <TextView
+                        android:id="@+id/tv_edit_password_deription"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/tv_edit_password"
+                        android:text="@string/edit_the_unlock_password"
+                        android:textSize="16.0sp" />
+                </RelativeLayout>
+
+                <FrameLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="1.0dip"
+                    android:background="#4d999999" />
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="16.0dip">
+
+                    <TextView
+                        android:id="@+id/tv_relock_policy"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/relock_policy"
+                        android:textColor="@android:color/black"
+                        android:textSize="18.0sp" />
+
+                    <TextView
+                        android:id="@+id/tv_relock_policy_decription"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/tv_relock_policy"
+                        android:layout_toLeftOf="@+id/checkbox_relock_policy"
+                        android:text="@string/password_is_not_required_after_unlocking_for_a_period_of_time"
+                        android:textSize="16.0sp" />
+
+                    <CheckBox
+                        android:id="@+id/checkbox_relock_policy"
+                        android:layout_width="36.0dip"
+                        android:layout_height="36.0dip"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:theme="@style/checkBoxTheme" />
+                </RelativeLayout>
+
+                <FrameLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="1.0dip"
+                    android:background="#4d999999" />
+
+                <RelativeLayout
+                    android:id="@+id/item_relock_timeout"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="16.0dip">
+
+                    <TextView
+                        android:id="@+id/tv_relock_timeout"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/relock_timeout"
+                        android:textColor="@android:color/black"
+                        android:textSize="18.0sp" />
+
+                    <TextView
+                        android:id="@+id/tv_relock_timeout_deription"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/tv_relock_timeout"
+                        android:text="@string/minutes_of_time_before_the_app_is_relocked"
+                        android:textSize="16.0sp" />
+                </RelativeLayout>
+
+                <FrameLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="1.0dip"
+                    android:background="#4d999999" />
+
+                <RelativeLayout
+                    android:id="@+id/item_selfie"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="16.0dip">
+
+                    <TextView
+                        android:id="@+id/tv_selfie"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/intruder_selfie"
+                        android:textColor="@android:color/black"
+                        android:textSize="18.0sp" />
+
+                    <TextView
+                        android:id="@+id/tv_selfie_deription"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/tv_selfie"
+                        android:layout_toLeftOf="@+id/checkbox_selfie"
+                        android:text="@string/take_a_photo_of_someone_entering_an_incorrect_code"
+                        android:textSize="16.0sp" />
+
+                    <CheckBox
+                        android:id="@+id/checkbox_selfie"
+                        android:layout_width="36.0dip"
+                        android:layout_height="36.0dip"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:theme="@style/checkBoxTheme" />
+                </RelativeLayout>
+
+                <FrameLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="1.0dip"
+                    android:background="#4d999999" />
+
+                <RelativeLayout
+                    android:id="@+id/item_vibrate"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="16.0dip">
+
+                    <TextView
+                        android:id="@+id/tv_vibrate"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/vibrate_on_touch"
+                        android:textColor="@android:color/black"
+                        android:textSize="18.0sp" />
+
+                    <TextView
+                        android:id="@+id/tv_vibrate_deription"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/tv_vibrate"
+                        android:layout_toLeftOf="@+id/checkbox_vibrate"
+                        android:text="@string/vibrate_when_buttons_are_pressed"
+                        android:textSize="16.0sp" />
+
+                    <CheckBox
+                        android:id="@+id/checkbox_vibrate"
+                        android:layout_width="36.0dip"
+                        android:layout_height="36.0dip"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:theme="@style/checkBoxTheme" />
+                </RelativeLayout>
+            </LinearLayout>
+        </ScrollView>
+    </RelativeLayout>
+</LinearLayout>

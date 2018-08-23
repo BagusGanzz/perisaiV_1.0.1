@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/home/jorge/android/StudioProjects/AndroidFillableLoaders/library/src/main/res/values/color.xml -->
+    <eat-comment/>
+    <color name="fillColor">#2196F3</color>
+    <color name="strokeColor">#ffffff</color>
+    <declare-styleable name="FillableLoader"><attr format="color" name="fl_fillColor"/><attr format="color" name="fl_strokeColor"/><attr format="dimension" name="fl_strokeWidth"/><attr format="integer" name="fl_originalWidth"/><attr format="integer" name="fl_originalHeight"/><attr format="integer" name="fl_strokeDrawingDuration"/><attr format="integer" name="fl_fillDuration"/><attr format="enum" name="fl_clippingTransform"><enum name="plain" value="0"/><enum name="spikes" value="1"/><enum name="rounded" value="2"/><enum name="waves" value="3"/><enum name="squares" value="4"/><enum name="bites" value="5"/></attr></declare-styleable>
+    <!-- From: file:/home/jorge/android/StudioProjects/AndroidFillableLoaders/library/src/main/res/values/dimen.xml -->
+    <eat-comment/>
+    <dimen name="fourthSampleStrokeWidth">2dp</dimen>
+    <dimen name="fourthSampleViewSize">185dp</dimen>
+    <dimen name="strokeWidth">1dp</dimen>
+    <!-- From: file:/home/jorge/android/StudioProjects/AndroidFillableLoaders/library/src/main/res/values/integers.xml -->
+    <eat-comment/>
+    <integer name="fillDuration">2000</integer>
+    <integer name="strokeDrawingDuration">1000</integer>
+    <!-- From: file:/home/jorge/android/StudioProjects/AndroidFillableLoaders/library/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="app_name">library</string>
+</resources>

@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="?selectableItemBackground"
+    android:clickable="true"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="8.0dip">
+
+        <ImageView
+            android:id="@+id/iv_warning_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:src="@mipmap/camera_icon" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="8.0dip"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_warning_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ads Displayed"
+                android:textColor="@android:color/black"
+                android:textSize="16.0sp" />
+
+            <TextView
+                android:id="@+id/tv_warning_detail"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="ddsdskdsdlsldsldlsdlskdls"
+                android:textColor="#ff7a7a7a" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="1.0dip"
+        android:background="#4d999999" />
+</LinearLayout>

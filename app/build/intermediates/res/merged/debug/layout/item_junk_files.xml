@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="?selectableItemBackground"
+    android:focusable="true"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="12.0dip">
+
+        <ImageView
+            android:id="@+id/img_app_icon"
+            android:layout_width="36.0dip"
+            android:layout_height="36.0dip"
+            android:src="@mipmap/ic_memoryboost" />
+
+        <TextView
+            android:id="@+id/tv_app_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="8.0dip"
+            android:layout_marginRight="8.0dip"
+            android:layout_toLeftOf="@+id/tv_app_cache_size"
+            android:layout_toRightOf="@+id/img_app_icon"
+            android:maxLines="1"
+            android:paddingRight="16.0dip"
+            android:text="Chrome"
+            android:textColor="@android:color/black"
+            android:textSize="18.0sp" />
+
+        <TextView
+            android:id="@+id/tv_app_cache_size"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="8.0dip"
+            android:text="3MB"
+            android:textColor="@android:color/black"
+            android:textSize="16.0sp" />
+    </RelativeLayout>
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="1.0dip"
+        android:background="#4d999999" />
+</LinearLayout>

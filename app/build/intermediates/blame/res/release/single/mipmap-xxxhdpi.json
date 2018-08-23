@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "D:\\AndroidLibrary\\perisaiV_1.0.1\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi\\ic_more_tes.png",
+        "source": "D:\\AndroidLibrary\\perisaiV_1.0.1\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_more_tes.png"
+    },
+    {
+        "merged": "D:\\AndroidLibrary\\perisaiV_1.0.1\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi\\ic_launcher.png",
+        "source": "D:\\AndroidLibrary\\perisaiV_1.0.1\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\AndroidLibrary\\perisaiV_1.0.1\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi\\ic_nosd.png",
+        "source": "D:\\AndroidLibrary\\perisaiV_1.0.1\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_nosd.png"
+    },
+    {
+        "merged": "D:\\AndroidLibrary\\perisaiV_1.0.1\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi\\more_tes.png",
+        "source": "D:\\AndroidLibrary\\perisaiV_1.0.1\\app\\src\\main\\res\\mipmap-xxxhdpi\\more_tes.png"
+    }
+]

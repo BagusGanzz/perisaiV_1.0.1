@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="12.0dip">
+
+        <ImageView
+            android:id="@+id/img_icon_app"
+            android:layout_width="36.0dip"
+            android:layout_height="36.0dip"
+            android:src="@mipmap/ic_phoneboost_main_result" />
+
+        <TextView
+            android:id="@+id/tv_application_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="8.0dip"
+            android:layout_toLeftOf="@+id/checkbox"
+            android:layout_toRightOf="@+id/img_icon_app"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="Flipboard"
+            android:textColor="#ff000000"
+            android:textSize="16.0sp" />
+
+        <CheckBox
+            android:id="@+id/checkbox"
+            android:layout_width="36.0dip"
+            android:layout_height="36.0dip"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:theme="@style/checkBoxTheme" />
+    </RelativeLayout>
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="1.0dip"
+        android:background="#4d999999" />
+</LinearLayout>

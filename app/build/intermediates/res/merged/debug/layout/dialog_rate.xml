@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center">
+
+    <ImageView
+        android:layout_width="@dimen/pop_width"
+        android:layout_height="@dimen/pop_width"
+        android:background="@null"
+        android:src="@mipmap/pop" />
+
+    <ImageView
+        android:id="@+id/btn_close"
+        android:layout_width="@dimen/del_width"
+        android:layout_height="@dimen/del_height"
+        android:layout_gravity="right"
+        android:layout_marginRight="24.0dip"
+        android:layout_marginTop="8.0dip"
+        android:src="@mipmap/ic_del" />
+
+    <ImageView
+        android:id="@+id/btn_rate"
+        android:layout_width="@dimen/rate_width"
+        android:layout_height="@dimen/rate_height"
+        android:layout_gravity="bottom|center"
+        android:layout_marginBottom="16.0dip"
+        android:src="@mipmap/bt_rate_ac" />
+</FrameLayout>

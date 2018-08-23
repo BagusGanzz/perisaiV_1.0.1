@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:adx="http://schemas.adflex.vn/apk/lib/ads"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/dialog_bg_white"
+    android:gravity="center"
+    android:minWidth="300.0dip"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false"
+        android:orientation="vertical"
+        android:paddingBottom="20.0dip"
+        android:paddingLeft="24.0dip"
+        android:paddingRight="24.0dip"
+        android:paddingTop="24.0dip"
+        android:weightSum="100.0" >
+
+        <TextView
+            android:id="@+id/tvRateTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:gravity="left"
+            android:shadowDx="10.0"
+            android:shadowDy="10.0"
+            android:shadowRadius="20.0"
+            android:singleLine="true"
+            android:text="Rate app now"
+            android:textColor="@android:color/black"
+            android:textSize="20.0sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvRateContent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20.0dip"
+            android:gravity="left"
+            android:text="@string/rate_dialog_str_content"
+            android:textColor="#ff1b1b1b"
+            android:textSize="16.0sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="48.0dip"
+        android:layout_gravity="right"
+        android:layout_marginBottom="8.0dip"
+        android:orientation="horizontal"
+        android:paddingBottom="4.0dip"
+        android:paddingLeft="4.0dip"
+        android:paddingRight="4.0dip"
+        android:weightSum="3.0" >
+
+        <TextView
+            android:id="@+id/btExit"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="8.0dip"
+            android:layout_weight="1.0"
+            android:gravity="center"
+            android:paddingLeft="4.0dip"
+            android:paddingRight="4.0dip"
+            android:text="EXIT"
+            android:textColor="#ffcccccc"
+            android:textSize="14.0sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/btRate"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="4.0dip"
+            android:layout_marginRight="4.0dip"
+            android:layout_weight="1.0"
+            android:gravity="center"
+            android:paddingLeft="4.0dip"
+            android:paddingRight="4.0dip"
+            android:text="RATE"
+            android:textColor="#FF4081"
+            android:textSize="17.0sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/btCancle"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:layout_marginRight="8.0dip"
+            android:layout_weight="1.0"
+            android:gravity="center"
+            android:paddingLeft="4.0dip"
+            android:paddingRight="4.0dip"
+            android:text="CANCLE"
+            android:textColor="#ffcccccc"
+            android:textSize="14.0sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>

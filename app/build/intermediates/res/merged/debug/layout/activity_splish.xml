@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/settings_background">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="fill_parent"
+        android:layout_height="100.0dip"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="200.0dip"
+        android:src="@mipmap/ic_launcher" />
+
+    <TextView
+        android:id="@+id/app_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10.0dip"
+        android:text="@string/app_name"
+
+        android:textAllCaps="true"
+        android:textColor="#ffffffff"
+        android:gravity="center"
+        android:textSize="26.0sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/ss"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10.0dip"
+        android:text="2018"
+
+        android:textAllCaps="true"
+        android:textColor="#ffffffff"
+        android:gravity="center"
+        android:textSize="26.0sp"
+        android:textStyle="bold" />
+    <!---->
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7.0dip"
+        android:gravity="center_horizontal"
+
+        android:textColor="#b3ffffff"
+        android:textSize="18.0sp" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginBottom="10.0dip"
+        android:gravity="bottom|center"
+
+        android:textColor="#b3ffffff"
+        android:textSize="18.0sp"
+        android:textStyle="bold"
+        android:textAllCaps="true"/>
+</LinearLayout>

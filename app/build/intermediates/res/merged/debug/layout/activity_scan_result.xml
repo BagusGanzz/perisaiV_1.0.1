@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background_danger"
+    android:orientation="vertical">
+
+    <include layout="@layout/tool_bar" />
+
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <RelativeLayout
+            android:id="@+id/result_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@android:color/white">
+
+            <TextView
+                android:id="@+id/tv_num_of_issues"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10.0dip"
+                android:text="Found 2 issues"
+                android:textSize="18.0sp" />
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/rv_scan_result"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_above="@+id/framelayout_skip_all"
+                android:layout_below="@+id/tv_num_of_issues"
+                android:clipToPadding="false" />
+
+            <FrameLayout
+                android:id="@+id/framelayout_skip_all"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="8.0dip"
+                android:background="@mipmap/bt_boost">
+
+                <TextView
+                    android:id="@+id/tv_skip_all"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/skip_all"
+                    android:textColor="@android:color/white"
+                    android:textSize="18.0sp" />
+            </FrameLayout>
+        </RelativeLayout>
+    </FrameLayout>
+</LinearLayout>

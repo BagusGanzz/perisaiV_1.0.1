@@ -1,0 +1,50 @@
+[
+    {
+        "merged": "D:\\Data Bagus Backup\\Bagus File\\perisaiV_1.0.1\\app\\build\\intermediates\\res\\merged\\debug\\menu\\apps.xml",
+        "source": "D:\\Data Bagus Backup\\Bagus File\\perisaiV_1.0.1\\app\\src\\main\\res\\menu\\apps.xml"
+    },
+    {
+        "merged": "D:\\AndroidLibrary\\perisaiV_1.0.1\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_main_drawer.xml",
+        "source": "D:\\AndroidLibrary\\perisaiV_1.0.1\\app\\src\\main\\res\\menu\\activity_main_drawer.xml"
+    },
+    {
+        "merged": "D:\\AndroidLibrary\\perisaiV_1.0.1\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_main.xml",
+        "source": "D:\\AndroidLibrary\\perisaiV_1.0.1\\app\\build\\intermediates\\exploded-aar\\com.github.ViksaaSkool\\AwesomeSplash\\v1.0.0\\res\\menu\\menu_main.xml"
+    },
+    {
+        "merged": "D:\\Data Bagus Backup\\Bagus File\\perisaiV_1.0.1\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_main.xml",
+        "source": "D:\\Data Bagus Backup\\Bagus File\\perisaiV_1.0.1\\app\\build\\intermediates\\exploded-aar\\com.github.ViksaaSkool\\AwesomeSplash\\v1.0.0\\res\\menu\\menu_main.xml"
+    },
+    {
+        "merged": "D:\\Data Bagus Backup\\Bagus File\\perisaiV_1.0.1\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_main_drawer.xml",
+        "source": "D:\\Data Bagus Backup\\Bagus File\\perisaiV_1.0.1\\app\\src\\main\\res\\menu\\activity_main_drawer.xml"
+    },
+    {
+        "merged": "D:\\AndroidLibrary\\perisaiV_1.0.1\\app\\build\\intermediates\\res\\merged\\debug\\menu\\global.xml",
+        "source": "D:\\AndroidLibrary\\perisaiV_1.0.1\\app\\src\\main\\res\\menu\\global.xml"
+    },
+    {
+        "merged": "D:\\AndroidLibrary\\perisaiV_1.0.1\\app\\build\\intermediates\\res\\merged\\debug\\menu\\apps.xml",
+        "source": "D:\\AndroidLibrary\\perisaiV_1.0.1\\app\\src\\main\\res\\menu\\apps.xml"
+    },
+    {
+        "merged": "D:\\Data Bagus Backup\\Bagus File\\perisaiV_1.0.1\\app\\build\\intermediates\\res\\merged\\debug\\menu\\global.xml",
+        "source": "D:\\Data Bagus Backup\\Bagus File\\perisaiV_1.0.1\\app\\src\\main\\res\\menu\\global.xml"
+    },
+    {
+        "merged": "D:\\Data Bagus Backup\\Bagus File\\perisaiV_1.0.1\\app\\build\\intermediates\\res\\merged\\debug\\menu\\app_lock_home.xml",
+        "source": "D:\\Data Bagus Backup\\Bagus File\\perisaiV_1.0.1\\app\\src\\main\\res\\menu\\app_lock_home.xml"
+    },
+    {
+        "merged": "D:\\AndroidLibrary\\perisaiV_1.0.1\\app\\build\\intermediates\\res\\merged\\debug\\menu\\alarm_item_context.xml",
+        "source": "D:\\AndroidLibrary\\perisaiV_1.0.1\\app\\src\\main\\res\\menu\\alarm_item_context.xml"
+    },
+    {
+        "merged": "D:\\AndroidLibrary\\perisaiV_1.0.1\\app\\build\\intermediates\\res\\merged\\debug\\menu\\app_lock_home.xml",
+        "source": "D:\\AndroidLibrary\\perisaiV_1.0.1\\app\\src\\main\\res\\menu\\app_lock_home.xml"
+    },
+    {
+        "merged": "D:\\Data Bagus Backup\\Bagus File\\perisaiV_1.0.1\\app\\build\\intermediates\\res\\merged\\debug\\menu\\alarm_item_context.xml",
+        "source": "D:\\Data Bagus Backup\\Bagus File\\perisaiV_1.0.1\\app\\src\\main\\res\\menu\\alarm_item_context.xml"
+    }
+]

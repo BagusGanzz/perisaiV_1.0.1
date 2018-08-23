@@ -1,0 +1,265 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="help_cat_pre_margin">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">6dp</item>
+    </style>
+
+    <style name="help_cat">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">2dp</item>
+        <item name="android:paddingBottom">2dp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:background">@color/ics_blue</item>
+        <item name="android:textColor">#111</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="help_cat_post_margin">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">10dp</item>
+    </style>
+
+    <style name="help_pref">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">1dp</item>
+        <item name="android:paddingBottom">1dp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:background">#CCC</item>
+        <item name="android:textColor">#111</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="help_text">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">7dp</item>
+        <item name="android:paddingBottom">7dp</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingMultiplier">1.1</item>
+    </style>
+
+    <style name="bi_help_theme" parent="@android:style/Theme.Light">
+    </style>
+
+    <style name="bi_main_theme" parent="@android:style/Theme">
+    </style>
+
+    <style name="bi_settings_theme" parent="@android:style/Theme">
+    </style>
+
+    <dimen name="compound_button_width">68dp</dimen>
+    <style name="alarm_list_item_toggle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/compound_button_width</item>
+        <item name="android:paddingLeft">8dp</item>
+    </style>
+
+    <style name="SelectableItem">
+        <item name="android:background">@android:drawable/list_selector_background</item>
+    </style>
+
+    <color name="android_green">#A4C639</color>
+    <color name="ics_blue">#33b5E5</color>
+    <color name="my_yellow">#E8D018</color>
+    <color name="my_darker_yellow">#D0BF27</color>
+
+    <color name="time_til_charged">@color/my_yellow</color>
+    <color name="light_usage">#cccc7e</color>
+    <color name="normal_usage">@color/android_green</color>
+    <color name="heavy_usage">@color/my_yellow</color>
+    <color name="constant_usage">#DD961B</color>
+
+    <color name="log_unplugged">@color/my_darker_yellow</color>
+    <color name="log_plugged">#5f97ac</color>
+    <color name="log_charged">@color/android_green</color>
+    <color name="log_unknown">#f66</color>
+    <color name="log_old_status">#ccc</color>
+    <color name="log_boot_completed">#886bc7</color>
+
+    <!--color name="heavy_usage">#DD901C</color-->
+
+    <integer name="current_info_top_left_weight">4</integer>
+    <integer name="current_info_top_right_weight">6</integer>
+
+    <integer name="bif_padding_weight">1</integer>
+    <dimen name="bis_side_padding">15dp</dimen>
+
+    <dimen name="battery_padding">10dp</dimen>
+
+    <style name="NotificationText">
+        <item name="android:textColor">?android:attr/textColorPrimaryInverse</item>
+    </style>
+    <style name="NotificationTitle">
+        <item name="android:textColor">?android:attr/textColorPrimaryInverse</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">17dp</item>
+    </style>
+
+    <style name="NotificationTextIcon" parent="NotificationTitle">
+    </style>
+
+    <dimen name="main_notification_text_padding_left">3dp</dimen>
+
+    <color name="notification_box_default_color">#222</color>
+    <color name="main_notification_default_custom_text_color">#000</color>
+    <bool name="default_show_box_around_icon_area">false</bool>
+
+    <dimen name="widget_margin">8dp</dimen>
+
+    <style name="divider">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0.6dp</item>
+        <item name="android:layout_marginLeft">7dp</item>
+        <item name="android:layout_marginRight">7dp</item>
+        <item name="android:background">?android:attr/listDivider</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+
+    <!-- Base application theme. -->
+    <style name="AppThemetwo" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme1" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.PopupOverlay">
+        <item name="android:titleTextStyle">@color/white</item>
+    </style>
+
+    <style name="checkBoxTheme">
+        <item name="colorAccent">#ff0aa50b</item>
+    </style>
+
+    <style name="ToolBarStyle" parent="@style/Theme.AppCompat.NoActionBar">
+        <item name="android:textColorSecondary">@android:color/white</item>
+    </style>
+
+    <style name="MaterialDialogSheet" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@style/MaterialDialogSheetAnimation</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
+    <style name="MaterialDialogSheetAnimation">
+        <item name="android:windowEnterAnimation">@anim/pop_show</item>
+        <item name="android:windowExitAnimation">@anim/pop_hide</item>
+    </style>
+
+    <style name="MyRadioButton" parent="@style/Theme.AppCompat.Light">
+        <item name="colorControlActivated">#ff0aa50b</item>
+    </style>
+
+    <style name="MyAlertDialogStyle" parent="@style/Theme.AppCompat.Light.Dialog.Alert" />
+
+    <declare-styleable name="ArcProgress">
+        <attr name="arc_progress" format="integer" />
+        <attr name="arc_angle" format="float" />
+        <attr name="arc_stroke_width" format="dimension" />
+        <attr name="arc_max" format="integer" />
+        <attr name="arc_unfinished_color" format="color" />
+        <attr name="arc_finished_color" format="color" />
+        <attr name="arc_text_size" format="dimension" />
+        <attr name="arc_text_color" format="color" />
+        <attr name="arc_suffix_text" format="string" />
+        <attr name="arc_suffix_text_size" format="dimension" />
+        <attr name="arc_suffix_text_padding" format="dimension" />
+        <attr name="arc_bottom_text" format="string" />
+        <attr name="arc_bottom_text_size" format="dimension" />
+    </declare-styleable>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <item name="android:buttonStyle">@style/Theme_Button</item>
+    </style>
+
+    <style name="LockActivityTheme" parent="AppBaseTheme">
+        <item name="android:buttonStyle">@style/Theme_Lock_Button</item>
+        <item name="android:imageButtonStyle">@style/Theme_Lock_ImageButton</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+
+    <style name="ApplistTheme" parent="AppBaseTheme">
+        <item name="android:buttonStyle">@style/Theme_Applist_Button</item>
+        <!-- <item name="android:textColor">#ffffff</item> -->
+    </style>
+
+    <style name="Theme_Button" parent="@android:style/Widget.Button">
+        <item name="android:background">@drawable/main_button_background</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:padding">10dp</item>
+    </style>
+
+    <style name="Theme_Lock_Button" parent="@android:style/Widget.Button">
+        <item name="android:background">@drawable/passwordview_button_background</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="Theme_Lock_ImageButton" parent="@android:style/Widget.ImageButton">
+        <item name="android:background">@drawable/passwordview_button_background</item>
+        <item name="android:textColor">#ff0000</item>
+        <item name="android:padding">16dp</item>
+    </style>
+
+    <style name="Theme_Applist_Button" parent="@android:style/Widget.Button">
+        <item name="android:background">@drawable/applist_button_background</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:padding">10dp</item>
+    </style>
+
+    <!-- For StagingActivity -->
+    <style name="Theme_Transparent" parent="android:Theme">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+
+    <!-- For navigation drawer -->
+    <style name="ButtonBarButton">
+        <item name="android:background">#0000</item>
+        <item name="android:textColor">#fff</item>
+    </style>
+
+    <style name="ButtonBar" parent="@android:style/ButtonBar">
+        <item name="android:background">#0000</item>
+    </style>
+
+    <style name="Common.Small" parent="@android:style/Widget.TextView">
+        <item name="android:textColor">#ccc</item>
+    </style>
+
+</resources>

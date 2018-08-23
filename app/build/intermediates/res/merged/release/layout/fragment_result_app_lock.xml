@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@android:color/white">
+
+        <LinearLayout
+            android:id="@+id/linear"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff6f7fb"
+            android:orientation="vertical"
+            android:paddingBottom="12.0dip">
+
+            <TextView
+                android:id="@+id/tv_title"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16.0dip"
+                android:gravity="center"
+                android:padding="16.0dip"
+                android:textSize="18.0sp" />
+
+            <TextView
+                android:id="@+id/tv_decription"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingLeft="12.0dip"
+                android:paddingRight="12.0dip"
+                android:text="@string/lock_your_apps_so_that_no_one_can_snoop_on"
+                android:textColor="#ff333333" />
+        </LinearLayout>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rv_app_lock"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_above="@+id/tv_protect"
+            android:layout_below="@+id/linear" />
+
+        <TextView
+            android:id="@+id/tv_protect"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="8.0dip"
+            android:layout_marginTop="8.0dip"
+            android:background="@mipmap/bt_1"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:textSize="18.0sp"
+            android:visibility="visible" />
+    </RelativeLayout>
+</LinearLayout>

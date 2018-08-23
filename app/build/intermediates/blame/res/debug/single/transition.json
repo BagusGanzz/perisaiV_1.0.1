@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "D:\\Data Bagus Backup\\Bagus File\\perisaiV_1.0.1\\app\\build\\intermediates\\res\\merged\\debug\\transition\\activity_fade.xml",
+        "source": "D:\\Data Bagus Backup\\Bagus File\\perisaiV_1.0.1\\app\\src\\main\\res\\transition\\activity_fade.xml"
+    },
+    {
+        "merged": "D:\\Data Bagus Backup\\Bagus File\\perisaiV_1.0.1\\app\\build\\intermediates\\res\\merged\\debug\\transition\\change_image_transform.xml",
+        "source": "D:\\Data Bagus Backup\\Bagus File\\perisaiV_1.0.1\\app\\src\\main\\res\\transition\\change_image_transform.xml"
+    },
+    {
+        "merged": "D:\\AndroidLibrary\\perisaiV_1.0.1\\app\\build\\intermediates\\res\\merged\\debug\\transition\\activity_fade.xml",
+        "source": "D:\\AndroidLibrary\\perisaiV_1.0.1\\app\\src\\main\\res\\transition\\activity_fade.xml"
+    },
+    {
+        "merged": "D:\\AndroidLibrary\\perisaiV_1.0.1\\app\\build\\intermediates\\res\\merged\\debug\\transition\\change_image_transform.xml",
+        "source": "D:\\AndroidLibrary\\perisaiV_1.0.1\\app\\src\\main\\res\\transition\\change_image_transform.xml"
+    }
+]

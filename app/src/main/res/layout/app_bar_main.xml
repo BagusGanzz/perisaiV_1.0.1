@@ -1,0 +1,584 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/background"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/settings_background"
+    android:fitsSystemWindows="true">
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        android:elevation="4dp" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <LinearLayout
+                android:id="@+id/layout_scan_button"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_alignParentTop="true"
+                android:clipChildren="false"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:id="@+id/relative_layout_scan"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1.0"
+                    android:clipChildren="false">
+
+                    <ImageView
+                        android:id="@+id/iv_start_scan_anim"
+                        android:layout_width="@dimen/scan_button_width"
+                        android:layout_height="@dimen/scan_button_height"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true"
+                        android:src="@mipmap/bt_scan_animation"
+                        android:visibility="visible"/>
+
+                    <FrameLayout
+                        android:id="@+id/iv_start_scan"
+                        android:layout_width="@dimen/scan_button_width"
+                        android:layout_height="@dimen/scan_button_height"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true"
+                        android:background="@mipmap/bt_scan"
+                        android:clickable="true">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/tv_scan"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/bt_scan"
+                                android:textColor="@android:color/white"
+                                android:textSize="@dimen/text_size_bt_scan" />
+
+                            <TextView
+                                android:id="@+id/tv_app_system"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/apps_and_system"
+                                android:textColor="@android:color/white"
+                                android:textSize="@dimen/text_size_apps_and_system" />
+                        </LinearLayout>
+                    </FrameLayout>
+
+                    <ImageView
+                        android:id="@+id/bg_animation_scan"
+                        android:layout_width="@dimen/scan_button_width"
+                        android:layout_height="@dimen/scan_button_height"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true"
+                        android:src="@drawable/bg_animation_scan" />
+
+                    <ImageView
+                        android:visibility="gone"
+                        android:id="@+id/img_privacy"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:background="@drawable/lock_button"
+                        android:layout_above="@+id/tv_title_privacy"
+                        android:layout_centerHorizontal="true" />
+
+                    <TextView
+                        android:visibility="gone"
+                        android:id="@+id/tv_title_privacy"
+                        android:textStyle="bold"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="@string/app_lock_name"
+                        android:textColor="@android:color/white"
+                        android:layout_marginBottom="11dp"
+                        android:layout_above="@+id/iv_start_scan_anim"
+                        android:layout_centerHorizontal="true" />
+
+                    <!--<Button-->
+                        <!--android:text="VAULT"-->
+                        <!--android:textStyle="bold"-->
+                        <!--android:textColor="#ecf0f1"-->
+                        <!--android:background="#350890"-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:id="@+id/button4"-->
+                        <!--android:layout_alignBaseline="@+id/button2"-->
+                        <!--android:layout_alignBottom="@+id/button2"-->
+                        <!--android:layout_centerHorizontal="true" />-->
+
+                    <!--<Button-->
+                        <!--android:textStyle="bold"-->
+                        <!--android:text="Manager"-->
+                        <!--android:textColor="#ecf0f1"-->
+                        <!--android:background="#350890"-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:layout_marginRight="17dp"-->
+                        <!--android:layout_marginEnd="17dp"-->
+                        <!--android:id="@+id/button5"-->
+                        <!--android:layout_alignBaseline="@+id/button4"-->
+                        <!--android:layout_alignBottom="@+id/button4"-->
+                        <!--android:layout_alignParentRight="true"-->
+                        <!--android:layout_alignParentEnd="true" />-->
+
+                    <!--<Button-->
+                        <!--android:textStyle="bold"-->
+                        <!--android:text="Monitor"-->
+                        <!--android:textColor="#ecf0f1"-->
+                        <!--android:background="#350890"-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:layout_marginLeft="17dp"-->
+                        <!--android:layout_marginStart="17dp"-->
+                        <!--android:id="@+id/button2"-->
+                        <!--android:layout_marginBottom="11dp"-->
+                        <!--android:layout_above="@+id/iv_start_scan_anim"-->
+                        <!--android:layout_toRightOf="@+id/img_privacy"-->
+                        <!--android:layout_toEndOf="@+id/img_privacy" />-->
+                </RelativeLayout>
+
+                <FrameLayout
+                    android:id="@+id/frame_noti"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="100dp"
+                    android:layout_weight="1.5"
+                    android:clipChildren="false">
+
+                    <TextView
+                        android:id="@+id/tv_first_run"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="@string/run_first_analysis_to_check_threats"
+                        android:textColor="@android:color/white"
+                        android:textSize="18.0sp"
+                        android:visibility="invisible" />
+
+                    <LinearLayout
+                        android:id="@+id/notifi_safe"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:orientation="horizontal"
+                        android:visibility="invisible">
+
+                        <ImageView
+                            android:layout_width="36.0dip"
+                            android:layout_height="36.0dip"
+                            android:layout_gravity="center"
+                            android:src="@drawable/fa_safe"
+                            android:paddingRight="10dp"/>
+
+                        <TextView
+                            android:id="@+id/tv_safe"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="@string/you_are_safe"
+                            android:textColor="@android:color/white"
+                            android:textSize="18.0sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/noti_danger"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:orientation="vertical"
+                        android:visibility="invisible">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="24.0dip"
+                                android:layout_height="24.0dip"
+                                android:layout_gravity="center"
+                                android:src="@drawable/ic_danger2" />
+
+                            <TextView
+                                android:id="@+id/tv_danger"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:text="@string/in_danger"
+                                android:textColor="@android:color/white" />
+                        </LinearLayout>
+
+                        <TextView
+                            android:id="@+id/tv_found_problem"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="1 problem found"
+                            android:textColor="@color/colorTextMenu" />
+
+                        <ImageView
+                            android:id="@+id/img_resolvep_roblems"
+                            android:layout_width="192.0dip"
+                            android:layout_height="48.0dip"
+                            android:src="@drawable/bg_resolveproblems" />
+                    </LinearLayout>
+
+                </FrameLayout>
+            </LinearLayout>
+
+
+            <com.google.android.gms.ads.AdView
+                xmlns:ads="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/adView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                ads:adSize="BANNER"
+                ads:adUnitId="@string/batteryads"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true">
+            </com.google.android.gms.ads.AdView>
+
+
+
+
+            <LinearLayout
+                android:visibility="gone"
+                android:id="@+id/task_layout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="8.0dip"
+                android:background="@mipmap/bg_footer"
+                android:clipChildren="false"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_weight="1.0"
+                    android:clipChildren="false"
+                    android:orientation="vertical">
+
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:clipChildren="false">
+
+                        <ImageView
+                            android:id="@+id/img_threat"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:background="@drawable/info_button" />
+                    </FrameLayout>
+
+                    <TextView
+                        android:id="@+id/tv_title_threat"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="4.0dip"
+                        android:text="@string/info"
+                        android:textColor="@android:color/white" />
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:src="@mipmap/line" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_weight="1.0"
+                    android:clipChildren="false"
+                    android:orientation="vertical">
+
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:clipChildren="false">
+
+                    </FrameLayout>
+
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:src="@mipmap/line" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_weight="1.0"
+                    android:clipChildren="false"
+                    android:orientation="vertical">
+
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:clipChildren="false">
+
+                        <ImageView
+                            android:id="@+id/img_booster"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:background="@drawable/like_button" />
+                    </FrameLayout>
+
+                    <TextView
+                        android:id="@+id/tv_title_booster"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="4.0dip"
+                        android:text="@string/rate"
+                        android:textColor="@android:color/white" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <!--<Button-->
+                <!--android:id="@+id/batteryx"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="Battery Saver"-->
+                <!--android:textStyle="bold"-->
+                <!--android:textColor="#ecf0f1"-->
+                <!--android:background="#4a72f5"-->
+                <!--android:layout_alignTop="@+id/adView"-->
+                <!--android:layout_alignRight="@+id/adView"-->
+                <!--android:layout_alignEnd="@+id/adView"-->
+                <!--android:layout_alignLeft="@+id/adView"-->
+                <!--android:layout_alignStart="@+id/adView" />-->
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentBottom="true">
+                    <View
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"/>
+                    <LinearLayout
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:orientation="vertical">
+
+                        <ImageButton
+                            android:id="@+id/button4"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:scaleType="centerCrop"
+                            android:layout_gravity="center"
+                            android:background="@drawable/ic_vault_new"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="Vault"
+                            android:textColor="#FFFFFF"/>
+                    </LinearLayout>
+                    <View
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"/>
+                    <LinearLayout
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:orientation="vertical">
+
+                        <ImageButton
+                            android:id="@+id/button5"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:scaleType="centerCrop"
+                            android:layout_gravity="center"
+                            android:background="@drawable/ic_app_manager_new"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:textColor="#FFFFFF"
+                            android:text="App Manager" />
+                    </LinearLayout>
+                    <View
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"/>
+                    <LinearLayout
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:orientation="vertical">
+
+                        <ImageButton
+                            android:id="@+id/button2"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:scaleType="centerCrop"
+                            android:layout_gravity="center"
+                            android:background="@drawable/ic_monitor_new"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:textColor="#FFFFFF"
+                            android:text="Monitor" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:orientation="vertical">
+
+                        <ImageButton
+                            android:id="@+id/batteryx"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:scaleType="centerCrop"
+                            android:layout_gravity="center"
+                            android:background="@drawable/ic_bat_saver_new"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:textColor="#FFFFFF"
+                            android:text="Battery Saver" />
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="wrap_content"
+                        android:layout_height="10dp"
+                        android:layout_weight="1"/>
+
+                    <LinearLayout
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:orientation="vertical">
+
+                        <ImageButton
+                            android:id="@+id/soon1"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:scaleType="centerCrop"
+                            android:layout_gravity="center"
+                            android:background="@drawable/ic_soon"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:textColor="#FFFFFF"
+                            android:text="Coming Soon" />
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="wrap_content"
+                        android:layout_height="10dp"
+                        android:layout_weight="1"/>
+
+                    <LinearLayout
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:orientation="vertical">
+
+                        <ImageButton
+                            android:id="@+id/soon2"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:scaleType="centerCrop"
+                            android:layout_gravity="center"
+                            android:background="@drawable/ic_soon"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:textColor="#FFFFFF"
+                            android:text="Coming Soon" />
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="wrap_content"
+                        android:layout_height="10dp"
+                        android:layout_weight="1"/>
+
+                    <LinearLayout
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:orientation="vertical">
+
+                        <ImageButton
+                            android:id="@+id/soon3"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:scaleType="centerCrop"
+                            android:layout_gravity="center"
+                            android:background="@drawable/ic_soon"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:textColor="#FFFFFF"
+                            android:text="Coming Soon" />
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="wrap_content"
+                        android:layout_height="10dp"
+                        android:layout_weight="1"/>
+
+                </LinearLayout>
+            </HorizontalScrollView>
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

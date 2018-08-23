@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main_browser"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ff2c3842"
+    android:descendantFocusability="beforeDescendants"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/search_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#ff29353a">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4.0dip"
+            android:layout_marginLeft="16.0dip"
+            android:layout_marginRight="16.0dip"
+            android:layout_marginTop="8.0dip"
+            android:background="#ff43484b">
+
+            <EditText
+                android:id="@+id/edt_search"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="4.0dip"
+                android:layout_marginRight="4.0dip"
+                android:layout_toLeftOf="@+id/img_clear"
+                android:background="@android:color/transparent"
+                android:ellipsize="end"
+                android:imeOptions="actionSearch"
+                android:maxLines="1"
+                android:padding="8.0dip"
+                android:scrollHorizontally="true"
+                android:singleLine="true"
+                android:textSize="14.0sp" />
+
+            <ImageView
+                android:id="@+id/img_clear"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="4.0dip"
+                android:layout_marginRight="4.0dip"
+                android:src="@drawable/ic_clear" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/search_bar"
+        android:indeterminate="true"
+        android:visibility="invisible" />
+
+    <WebView
+        android:id="@+id/webView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/navi_bar"
+        android:layout_below="@+id/progressBar" />
+
+    <RelativeLayout
+        android:id="@+id/navi_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/white"
+        android:orientation="horizontal">
+
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="1.0dip"
+            android:background="@android:color/darker_gray" />
+
+        <ImageView
+            android:id="@+id/img_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="8.0dip"
+            android:paddingTop="8.0dip"
+            android:src="@drawable/ic_chevron_left" />
+
+        <ImageView
+            android:id="@+id/img_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:paddingBottom="8.0dip"
+            android:paddingTop="8.0dip"
+            android:src="@drawable/ic_chevron_right" />
+    </RelativeLayout>
+</RelativeLayout>

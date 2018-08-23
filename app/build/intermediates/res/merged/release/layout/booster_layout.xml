@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/settings_background">
+
+    <ImageView
+        android:id="@+id/img_close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="16.0dip"
+        android:layout_marginTop="32.0dip"
+        android:src="@drawable/ic_booster_close" />
+
+    <FrameLayout
+        android:id="@+id/bg_animation_scan"
+        android:layout_width="156.0dip"
+        android:layout_height="156.0dip"
+        android:layout_centerInParent="true"
+        android:background="@drawable/bg_animation_scan" />
+
+    <ImageView
+        android:id="@+id/img_bin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_bin" />
+
+    <ImageView
+        android:id="@+id/img_app_icon"
+        android:layout_width="48.0dip"
+        android:layout_height="48.0dip"
+        android:layout_below="@+id/bg_animation_scan"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="48.0dip"
+        android:src="@mipmap/ic_launcher" />
+
+    <TextView
+        android:id="@+id/tv_progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/img_app_icon"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32.0dip"
+        android:text="Boosting 0/5"
+        android:textColor="@android:color/white"
+        android:textSize="18.0sp" />
+</RelativeLayout>

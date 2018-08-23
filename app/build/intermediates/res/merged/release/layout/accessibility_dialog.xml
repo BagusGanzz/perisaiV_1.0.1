@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    android:padding="16.0dip">
+
+    <ImageView
+        android:layout_width="84.0dip"
+        android:layout_height="84.0dip"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="16.0dip"
+        android:src="@mipmap/ic_launcher" />
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/enable_noah_security"
+        android:layout_gravity="center"
+        android:textColor="@android:color/black"
+        android:textSize="18.0sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_decription"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="9.0dip"
+        android:text="@string/noah_security_use_accessibility"
+        android:textColor="@android:color/black"
+        android:textSize="16.0sp" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16.0dip"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/btn_not_now"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="16.0dip"
+            android:layout_toLeftOf="@+id/btn_enable"
+            android:background="@android:color/transparent"
+            android:paddingBottom="8.0dip"
+            android:paddingLeft="24.0dip"
+            android:paddingRight="24.0dip"
+            android:paddingTop="8.0dip"
+            android:text="@string/not_now"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/btn_enable"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:background="#ff6601ff"
+            android:paddingBottom="8.0dip"
+            android:paddingLeft="24.0dip"
+            android:paddingRight="24.0dip"
+            android:paddingTop="8.0dip"
+            android:text="@string/enable"
+            android:textColor="@android:color/white" />
+    </RelativeLayout>
+</LinearLayout>

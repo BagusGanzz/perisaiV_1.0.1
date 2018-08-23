@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <RadioGroup
+        android:id="@+id/radio_group"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/MyRadioButton">
+
+        <RadioButton
+            android:id="@+id/rd_1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="?selectableItemBackground"
+            android:button="@null"
+            android:drawableRight="@drawable/btn_check"
+            android:gravity="center"
+            android:padding="16.0dip"
+            android:text="1 Minutes"
+            android:textSize="18.0sp" />
+
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="1.0dip"
+            android:background="#4d999999" />
+
+        <RadioButton
+            android:id="@+id/rd_3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="?selectableItemBackground"
+            android:button="@null"
+            android:drawableRight="@drawable/btn_check"
+            android:gravity="center"
+            android:padding="16.0dip"
+            android:text="3 Minutes"
+            android:textSize="18.0sp" />
+
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="1.0dip"
+            android:background="#4d999999" />
+
+        <RadioButton
+            android:id="@+id/rd_5"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="?selectableItemBackground"
+            android:button="@null"
+            android:drawableRight="@drawable/btn_check"
+            android:gravity="center"
+            android:padding="16.0dip"
+            android:text="5 Minutes"
+            android:textSize="18.0sp" />
+
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="1.0dip"
+            android:background="#4d999999" />
+
+        <RadioButton
+            android:id="@+id/rd_15"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="?selectableItemBackground"
+            android:button="@null"
+            android:drawableRight="@drawable/btn_check"
+            android:gravity="center"
+            android:padding="16.0dip"
+            android:text="15 Minutes"
+            android:textSize="18.0sp" />
+
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="1.0dip"
+            android:background="#4d999999" />
+
+        <RadioButton
+            android:id="@+id/rd_30"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="?selectableItemBackground"
+            android:button="@null"
+            android:drawableRight="@drawable/btn_check"
+            android:gravity="center"
+            android:padding="16.0dip"
+            android:text="30 Minutes"
+            android:textSize="18.0sp" />
+    </RadioGroup>
+</LinearLayout>
